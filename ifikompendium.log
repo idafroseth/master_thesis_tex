@@ -1,0 +1,224 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.7.16)  5 AUG 2015 09:13
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**ifikompendium.tex
+(./ifikompendium.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 79 languages loaded.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/04/20 v2.0e eso-pic (RN)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty:257: Missing \
+endcsname inserted.
+<to be read again> 
+                   \@classoptionslist 
+l.257 \ProcessOptionsWithKV{ESO}
+                                %
+? 
+/usr/local/texlive/2015/texmf-dist/tex/latex/eso-pic/eso-pic.sty:257: Extra \en
+dcsname.
+\@ifundefined ...dafter \ifx \csname #1\endcsname 
+                                                  \relax \expandafter \@firs...
+l.257 \ProcessOptionsWithKV{ESO}
+                                %
+? 
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+\Gread@gobject=\count79
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1341.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+)
+\Gin@req@height=\dimen102
+\Gin@req@width=\dimen103
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/xifthen/xifthen.sty
+Package: xifthen 2009/04/17 v1.3 Extended ifthen features
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 2015/03/02 v2.1 eTeX basic definition package (PEB,DPC)
+\et@xins=\count80
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count81
+\calc@Bcount=\count82
+\calc@Adimen=\dimen104
+\calc@Bdimen=\dimen105
+\calc@Askip=\skip41
+\calc@Bskip=\skip42
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count83
+\calc@Cskip=\skip43
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+Package: ifmtarg 2009/09/02 v1.2a check for an empty argument
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/type1cm/type1cm.sty
+Package: type1cm 2002/09/05 v0.04 BlueSky/Y&Y Type1 CM font definitions (DPC, p
+atched RF)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cm-super/type1ec.sty
+Package: type1ec 2002/09/07 v1.1 Type1 EC font definitions (for CM-Super fonts)
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/t1cmr.fd
+File: t1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+))
+./ifikompendium.tex:39: Undefined control sequence.
+l.39 \define
+            @key{IfiF@keys}{dept}{\def \IfiF@dept {#1}}
+? 
+
+./ifikompendium.tex:39: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.39 \define@
+             key{IfiF@keys}{dept}{\def \IfiF@dept {#1}}
+? 
+./ifikompendium.tex:39: Illegal parameter number in definition of \IfiF.
+<to be read again> 
+                   1
+l.39 ...e@key{IfiF@keys}{dept}{\def \IfiF@dept {#1
+                                                  }}
+? 
+./ifikompendium.tex:40: Undefined control sequence.
+l.40 \define
+            @key{IfiF@keys}{fac}{\def \IfiF@fac {#1}}
+? 
+./ifikompendium.tex:40: Illegal parameter number in definition of \IfiF.
+<to be read again> 
+                   1
+l.40 ...ine@key{IfiF@keys}{fac}{\def \IfiF@fac {#1
+                                                  }}
+? 
+./ifikompendium.tex:41: Undefined control sequence.
+l.41 \define
+            @key{IfiF@keys}{isbn}{\def \IfiF@isbn {#1}}
+? 
+./ifikompendium.tex:41: Illegal parameter number in definition of \IfiF.
+<to be read again> 
+                   1
+l.41 ...e@key{IfiF@keys}{isbn}{\def \IfiF@isbn {#1
+                                                  }}
+? 
+./ifikompendium.tex:42: Undefined control sequence.
+l.42 \define
+            @key{IfiF@keys}{issn}{\def \IfiF@issn {#1}}
+? 
+./ifikompendium.tex:42: Illegal parameter number in definition of \IfiF.
+<to be read again> 
+                   1
+l.42 ...e@key{IfiF@keys}{issn}{\def \IfiF@issn {#1
+                                                  }}
+? 
+./ifikompendium.tex:43: Undefined control sequence.
+l.43 \define
+            @key{IfiF@keys}{kind}{\def \IfiF@kind {#1}}
+? 
+./ifikompendium.tex:43: Illegal parameter number in definition of \IfiF.
+<to be read again> 
+                   1
+l.43 ...e@key{IfiF@keys}{kind}{\def \IfiF@kind {#1
+                                                  }}
+? 
+./ifikompendium.tex:44: Undefined control sequence.
+l.44 \define
+            @key{IfiF@keys}{n}{\def \IfiF@rrnum {#1}}
+? 
+./ifikompendium.tex:44: Illegal parameter number in definition of \IfiF.
+<to be read again> 
+                   1
+l.44 ...ine@key{IfiF@keys}{n}{\def \IfiF@rrnum {#1
+                                                  }}
+? 
+
+Overfull \hbox (104.0628pt too wide) in paragraph at lines 39--45
+[]\T1/cmr/m/n/10 @keyIfiF@keysdept
+ []
+
+
+Overfull \hbox (25.82703pt too wide) in paragraph at lines 39--45
+\T1/cmr/m/n/10 @key-
+ []
+
+
+Overfull \hbox (6.94275pt too wide) in paragraph at lines 39--45
+\T1/cmr/m/n/10 I-
+ []
+
+
+Overfull \hbox (51.01532pt too wide) in paragraph at lines 39--45
+\T1/cmr/m/n/10 fiF@keysfac
+ []
+
+
+Overfull \hbox (25.82703pt too wide) in paragraph at lines 39--45
+\T1/cmr/m/n/10 @key-
+ []
+
+
+Overfull \hbox (6.94275pt too wide) in paragraph at lines 39--45
+\T1

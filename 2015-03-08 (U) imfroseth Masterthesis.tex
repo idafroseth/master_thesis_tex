@@ -1,0 +1,102 @@
+\documentclass[UKenglish]{ifimaster}  %% ... or USenglish or norsk or nynorsk
+\usepackage[latin1]{inputenc}         %% ... or utf8 or applemac
+\usepackage[T1]{fontenc,url}
+\urlstyle{sf}
+\usepackage{babel,textcomp,csquotes,ifimasterforside,varioref,graphicx}
+\usepackage[backend=biber,style=numeric-comp]{biblatex}
+
+\title{Application-centric Infrastructure}        %% ... or whatever
+\subtitle{Any short subtitle}         %% ... if any
+\author{Ida Marie Frøseth}                      %% ... or whoever 
+
+\bibliography{mybib}                  %% ... or whatever
+
+\begin{document}
+\ififorside{}
+\frontmatter{}
+\maketitle{}
+
+\chapter*{Abstract}                   %% ... or Sammendrag or Samandrag
+ThIS Is a change
+
+
+The text of the abstract;
+typically, 2--5 sentences.
+
+What it is all about??
+Title page, abstract, ...
+
+1. Introduction, containing: short intro into the area, what is happening
+1.1 Motivation, containing: what triggered me to write about what I'm writing about
+1.2 Methods, containing: which methods are you using, how do you apply them
+2. Scenario, optional chapter for explaining some use cases
+one main scenario, and applicability of others; what is the outcome of the scenario ("switching action", display information, ...)
+2.1 user scenario, (bad name, needs something bedre)
+2.2 Requirements/Technological challenges, here: Semantic technologies, User Profiles/preferences, context-aware services, ... WLAN provisioning (FON.com), reasoning towards a group profile (advertisement, entertainment, information)
+3. State-of-the art/Analysis of technology, structure your content after hardware/SW (or other domains). Describe which technologies might be used to answer the challenges, and how they can answer the challenges. Here: Middleware for bindling the moduls together. Focus on engine, Web or mobile?
+for all subchapters: provide an overview, then evaluate ("what is important for me?"), recommendation on which solution to go for
+3.1 technology A: Semantic technologies, Protege, Ontology
+3.2 technology B: User profiles (survey: SPICE, FOAF, tourist ontology,... -> none of them fit to my needs. Extend FOAF in areas of .....)
+3.3 Context awareness:
+3.4 Reasoning: overview, "why SWRL?"
+4. Implementation
+4.1 Architecture, functionality
+4.2
+5. Evaluation
+5.1 Security (man in the middle attacks, replay attacks...)
+5.2 Group Profile based service Personalization
+5.3 Future work
+6. Conclusions
+References
+
+\tableofcontents{}
+\listoffigures{}
+\listoftables{}
+
+\chapter{Preface}                    %% ... or Forord
+When and Where
+This thesis was written as a part of my Master?s degree in Informatics at the University of Oslo. Most of the work was done in the period from Januar 2016 to May 2017. The thesis was done in collaboration with Norwegian Defence Research Establishment, but the thesis have solely been written by the author. 
+
+	- in coporation with Norwegian Defence Research Esablishment
+How literature have been examined and where the publications have been found
+The names of the supervisors
+	- Mariann Hauge
+	- Erlend Larsen
+	- ?
+Acknowlegement
+	- Jan Erik Voldhaug
+	- Petter Kristiansen
+	- Ingar Bentstuen
+	- review:  Gunstein Thomas Frøseth(?)
+	- Lasse Sæther
+
+The envisaged time schedule (for a long thesis/60 ECTS) is:
+T0 0 starting month, T0+m denotes the month where the contribution to a certain chapter shalle be finalized
+T0+2 months: create an initial page describing the scenario
+T0+3: Provide a list of technologies which you think are necessary for the thesis
+T0+4: Establish the table of content (TOC) of the envisaged thesis. Each section shall contain 3-10 keywords describing the content of that section
+T0+7: Provide a draft of section 2 (scenario) and 3 (technologies)
+T0+10: Establish a draft on what to implement/architecture
+T0+11: Set-up an implementation, testing and evaluation plan
+T0+15: Evaluate your solution based on a set of parameters, keep in mind there is no such thing as a free lunch
+T0+17: Deliver the thesis
+
+\mainmatter{}
+\part{Introduction}                   %% ... or Innledning or Innleiing
+
+\chapter{Background}                  %% ... or 
+%\subchapter{Software defined Networks}
+\input{SdnTheory}
+\part{The project}                    %% ... or ??
+
+\chapter{Planning the project}        %% ... or ??
+
+
+\part{Conclusion}                     %% ... or Konklusjon
+
+\chapter{Results}                     %% ... or ??
+
+
+\backmatter{}
+\printbibliography
+\end{document}
