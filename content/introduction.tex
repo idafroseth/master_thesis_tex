@@ -1,0 +1,76 @@
+\chapter{Introduction}
+\section{Motivation}
+There is no doubt that the Internet has been a great success, and the distribution of network protocols have made networks autonomous and fault tolerant\cite{SDN_Comprehencieve}. However, during the last decades, the computing trends have changed drastically \cite{ONF_SDN_Whitepaper} from being static homogeneous client-to-server communication to highly mobile and heterogeneous networks \cite{future_internet_ANA} \cite{ONF_SDN_Whitepaper}. The content have also changed from static text or web pages to include real-time multimedia and big data. In addition, the security demands are driven to a whole new level by the dependency of IT in both government, banking and transport. The change is due to the evolution of virtualized servers, the rise of cloud services, the explosion of different (mobile) computing devices and wireless communication. Since IP networks never has been developed to meet the needs of todays network, it have made them almost unmanagable and very rigid. 
+
+///////////THIS DEFINITLY HAS TO BE REWRITTEN!/////////////////////////
+The tight coupling between the control plane (the part of the network that make the forwarding decision) and the data plane (the part of the network/a switch that actually forwards a packet from one port to another) have lead to a complexity that are very expensive, static and almost unmanageable. 
+
+In the military domain the same problem arise, and the largest problem is often the lack of flexibility and agility. 
+
+To remove the disadvantages we have in todays network with highly coupled data / control plane and rigid configuration, the best solution is often to centralize the controller, and this is true for big data centers, but in a military context this is not always desirable  ->  because we need each node to be autonomous in case they are seperated from the core network (as they usually are). Military networks need some kind of automatic and dynamic way of assigning SDN controllers to switches. As you will see in the related work section some have tried to this before but.... maybe aiming for a different domain? 
+
+This thesis will look at mechanisms to best solve the distribution of SDN controllers in a military context but at the same time achieve the most advantages from having the controllers centralized.
+
+--What is wrong with todays networks and how would SDN help us?
+-- What problem do we have in military networks? => New era within networking -SDN
+
+\subsubsection{NOTES - Use cases for SDN in a military operation?}
+\begin{itemize}
+\item More flexible networks - save time and money
+\item QoS
+\item Added security (?)
+\end{itemize}
+
+
+
+\section{Derived problem description}
+How to dynamically place SDN controllers in a military networks to.....?
+
+
+\section{Method}
+Software engineering -> lab experiment
+
+\section{Related work}
+%%%DISCO%%%
+\cite{DISCO} implemeted what they called DIstributed SDN COntrol plane (DISCO) for mission-critical networks. They implemented the AMQP a message-oriented (pub/sub) middelware protocol on top of the Floodlight controller (A Messenger which subscribe to recive $Packet_IN$ from the core module / OpenFlow events, and several Agent which handles pub/sub operations with other nodes). The drawback with their solutions is that they don´t support dynamically domains. When a controller is assign a domain, they are in charge for that domain. Does not support a hierarchi of controllers. In tactical networks which are highly dynamic and XXX there is a demand for nodes being autonomous. With the solution of \cite{DISCO} it is not possible to take advantages of a centralized controller. To take advantages of centralized controll, but at the same time being autonomous it can be some sort of hierarchy similar to NTP, where stratum 0 is the top tier, and if there is a stratum 0 controller in the network, he is in charge. Else if there is only stratum 1 nodes in the network the controllers communicate and cooparate in a distributed manner. More like a ANA approach with a bootstrap method, Membership database ++(?)\cite{ana}
+
+%%%Dynamic Resource Discovery%%%
+\cite{DRDP_for_SDN} propose a method for distributing the load among controllers by developing a Dynamic Resource Discovery Protocol for Software Defined Networks as an alternative to the usual Link-Layer Discovery Protocol. 
+
+"a protocol that allows to the controllers discover the network topology and distribute its management by themselves." 
+
+"The process of creating the control layer is executed in two phases, the forwarding phase where the controllers announce their presence and the nodes that start the creation of the control channels (leaf nodes) are discovered, and the backward phase where the nodes decide which node to join in direction of a controller, thus creating the control layer."
+
+"time-efficiently managed since the switches are managed by their nearest controller"
+
+" Although this work only takes into account the delay other parameters may be considered when building the control layer."
+
+
+"Recently, Google has presented their experience with B4 [1], a global SDN deployment interconnecting their datacenters. In B4, each site hosts a set of master/slave controllers that are managed by a gateway." 
+
+
+%%%Bootstrapping SDN Controllers%%%
+\cite{Bootstrapping_SDN_Controllers} proposed an approached called InitSDN to bootstrap the distributed SDN architecture and deploy distributed controllers. Their solution relied on dividing the network in two slices, one control slice for controlling controllers and the other for data. 
+
+Their architecture consists of six modules (modular software). Two basic services named Discovery and Topology which is responsible for discovering of the switches and hosts by sending LLDP packets and Network Hypervisor which slice the network in control and data slice (here they used the Flowvisor - NFV controller). In addition they have four control plane configuration modules namely "control plane logic partitioning configuration", "Control Plane Logic Synchronization configuration" (uses Apache Zookeeper), "Control Plane Topology Configuration", "Host Remote Access Configuration"
+
+"SDN architecture envisions a centralized control plane, which may result in adverse consequences to the reliability and performance [3]. Recent efforts have proposed a logically centralized but physically distributed control plane [3]."
+
+"designed to make SDN more flexible, reliable, fault-tolerant without adding complexity to the controllers."
+
+"InitSDN can increase or decrease the size of slices dynamically, change the topology of the controlslice, change the coordination mechanism among the controllers (e.g. use Zookeeper or Chubby, etc) to adapt to network topology changes or to dynamic network loads or simply as part of an upgrade."
+
+
+%%%ElastiCon%%%
+\cite{ElastiCon} 
+Read more
+"ElastiCon introduces a mechanism to change the active control connections from one controller to another, dynamically on run time. The mechanism defines the message exchange required to achieve the control path migration."\cite{SDN_VN_ControlPath}
+
+"To address this problem, we propose ElastiCon, an elastic dis- tributed controller architecture in which the controller pool is dy- namically grown or shrunk according to traffic conditions. To ad- dress the load imbalance caused due to spatial and temporal varia- tions in the traffic conditions, ElastiCon automatically balances the load across controllers thus ensuring good performance at all times irrespective of the traffic dynamics. We propose a novel switch mi- gration protocol for enabling such load shifting, which conforms with the Openflow standard. We further design the algorithms for controller load balancing and elasticity. We also build a prototype of ElastiCon and evaluate it extensively to demonstrate the efficacy of our design."
+Maybe we want a controller to controll another controller?
+
+%%%SDN_VN_ControlPath%%%
+\cite{SDN_VN_ControlPath} READ MORE
+Network Virtualization and Virtual SDN controllers for loadbalancing. 
+
+\section{Thesis structure}

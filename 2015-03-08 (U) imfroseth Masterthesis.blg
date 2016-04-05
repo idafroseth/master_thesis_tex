@@ -1,0 +1,18 @@
+[0] Config.pm:324> INFO - This is Biber 2.1
+[0] Config.pm:327> INFO - Logfile is '2015-03-08 (U) imfroseth Masterthesis.blg'
+[43] biber-darwin:276> INFO - === Fri Jan 22, 2016, 13:42:56
+[44] Biber.pm:333> INFO - Reading '2015-03-08 (U) imfroseth Masterthesis.bcf'
+[131] Biber.pm:645> INFO - Found 10 citekeys in bib section 0
+[145] Biber.pm:2977> INFO - Processing section 0
+[160] Biber.pm:3115> INFO - Looking for bibtex format file 'mybib.bib' for section 0
+[163] bibtex.pm:1021> INFO - Decoding LaTeX character macros into UTF-8
+[169] bibtex.pm:895> INFO - Found BibTeX data source 'mybib.bib'
+[185] Utils.pm:146> WARN - BibTeX subsystem: /tmp/8x5xXEZCc7/mybib.bib_3632.utf8, line 4, warning: 39 characters of junk seen at toplevel
+[185] Utils.pm:146> WARN - BibTeX subsystem: /tmp/8x5xXEZCc7/mybib.bib_3632.utf8, line 18, warning: 38 characters of junk seen at toplevel
+[266] UCollate.pm:66> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[266] UCollate.pm:66> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[266] Biber.pm:2854> INFO - Sorting list 'nty' of type 'entry' with scheme 'nty' and locale 'en-UK'
+[266] Biber.pm:2858> INFO - No sort tailoring available for locale 'en-UK'
+[280] bbl.pm:505> INFO - Writing '2015-03-08 (U) imfroseth Masterthesis.bbl' with encoding 'latin1'
+[284] bbl.pm:596> INFO - Output to 2015-03-08 (U) imfroseth Masterthesis.bbl
+[284] Biber.pm:106> INFO - WARNINGS: 2

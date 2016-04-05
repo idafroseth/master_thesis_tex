@@ -1,0 +1,419 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{nty}{nty}
+    \entry{SDN_VN_ControlPath}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=afed2c464d8de0c2fcb84af1338ecc1e}{Basta}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=6035a2e6712649d9908e9ebdf9dc8ddf}{Blenk}{B\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=b337d536263ad9b4bc4f54001e31caa5}{Belhaj\bibnamedelima Hassine}{B\bibinitperiod\bibinitdelim H\bibinitperiod}{H.}{H\bibinitperiod}{}{}{}{}}%
+        {{hash=20a8e404a2b2cb5391036d40b241814e}{Kellerer}{K\bibinitperiod}{W.}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{1529740208e23589a5f6cb7a16c2a34c}
+      \strng{fullhash}{7470a263b7397404deba8e7ec4cbe4c0}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Network and Service Management (CNSM), 2015 11th International Conference on}
+      \field{month}{11}
+      \field{title}{Towards a dynamic SDN virtualization layer: Control path migration protocol}
+      \field{year}{2015}
+      \field{pages}{354\bibrangedash 359}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/CNSM.2015.7367382
+      \endverb
+      \keyw{protocols;software defined networking;centralized hypervisor;control latency overhead;control path migration protocol;controller;distributed SDN hypervisors;distributed hypervisors;dynamic SDN virtualization layer;dynamic changes;hypervisor instances;hypervisor layer;management protocols;programmability;software defined networking;software defined networks;static configuration setup;virtual SDN networks;virtual resources;Context;Control systems;Proposals;Protocols;Software;Virtual machine monitors;Virtualization}
+    \endentry
+    \entry{DISCO}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=ae37f120e13d39fd54ec048dea8b9c26}{Bouet}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=139fa2e6c541065ff534556921f24ee2}{Phemius}{P\bibinitperiod}{K.}{K\bibinitperiod}{}{}{}{}}%
+        {{hash=1adf92b424327412fedd1e55804fe4bd}{Leguay}{L\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{e8e46a5ac2868d8e06e479565805e22e}
+      \strng{fullhash}{e8e46a5ac2868d8e06e479565805e22e}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Military Communications Conference (MILCOM), 2014 IEEE}
+      \field{month}{10}
+      \field{title}{Distributed SDN for Mission-Critical Networks}
+      \field{year}{2014}
+      \field{pages}{942\bibrangedash 948}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/MILCOM.2014.162
+      \endverb
+      \keyw{protocols;software radio;telecommunication control;AMQP protocol;DISCO controllers;OpenFlow controller;SDN protocols;data plane;distributed SDN;distributed SDN control plane;end-to-end network services;heterogeneous network topologies;inter-controller communication;inter-domain connectivity disruption;mission-critical networks;network-wide information;pub-sub mechanism;software-defined networking;virtual machine;Bandwidth;Computer architecture;Control systems;Databases;Monitoring;Protocols;Servers}
+    \endentry
+    \entry{ElastiCon}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=c407bc8283d60ef74097252ae0800273}{Dixit}{D\bibinitperiod}{Advait\bibnamedelima Abhay}{A\bibinitperiod\bibinitdelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=c2b3076e59d0ae1cde9fe67887f9f490}{Hao}{H\bibinitperiod}{Fang}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=f3662f7d94504f1254aef562dc4fc7f1}{Mukherjee}{M\bibinitperiod}{Sarit}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=e6b53fc2ec12e4259430bf3abbd39912}{Lakshman}{L\bibinitperiod}{T.V.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=4f454a7382eccc3d79723c3043797be7}{Kompella}{K\bibinitperiod}{Ramana}{R\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Los Angeles, California, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{134db2de8fcb52651ab395770376b1e7}
+      \strng{fullhash}{6239afc2da591efac575d30948242d99}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Tenth ACM/IEEE Symposium on Architectures for Networking and Communications Systems}
+      \field{isbn}{978-1-4503-2839-5}
+      \field{series}{ANCS '14}
+      \field{title}{ElastiCon: An Elastic Distributed Sdn Controller}
+      \field{year}{2014}
+      \field{pages}{17\bibrangedash 28}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1145/2658260.2658261
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/2658260.2658261
+      \endverb
+      \keyw{data center networks,software-defined networks}
+    \endentry
+    \entry{ONF_SDN_Whitepaper}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d0435adae0442cc4327fd19095d3a06f}{Fundation}{F\bibinitperiod}{Open\bibnamedelima Networking}{O\bibinitperiod\bibinitdelim N\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d0435adae0442cc4327fd19095d3a06f}
+      \strng{fullhash}{d0435adae0442cc4327fd19095d3a06f}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ONF White Paper}
+      \field{title}{Software-defined networking: The new norm for networks}
+      \field{year}{2012}
+    \endentry
+    \entry{SDN_Comprehensive}{book}{}
+      \name{author}{2}{}{%
+        {{hash=555a847403f0a45bfd6be58c37325815}{Goransson}{G\bibinitperiod}{Paul}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=2e83b3702a5ea07be07bbc9369fdb85f}{Black}{B\bibinitperiod}{Chuck}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam ; Boston}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann}%
+      }
+      \strng{namehash}{fca608283fde85eef124f9c33ea069ee}
+      \strng{fullhash}{fca608283fde85eef124f9c33ea069ee}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Software Defined Networks discusses the historical networking environment that gave rise to {SDN}, as well as the latest advances in {SDN} technology. The book gives you the state of the art knowledge needed for successful deployment of an {SDN}, including: How to explain to the non-technical business decision makers in your organization the potential benefits, as well as the risks, in shifting parts of a network to the {SDN} {modelHow} to make intelligent decisions about when to integrate {SDN} technologies in a {networkHow} to decide if your organization should be developing its own {SDN} applications or looking to acquire these from an outside {vendorHow} to accelerate the ability to develop your own {SDN} application, be it entirely novel or a more efficient approach to a long-standing {problemDiscusses} the evolution of the switch platforms that enable {SDN} Addresses when to integrate {SDN} technologies in a {networkProvides} an overview of sample {SDN} applications relevant to different {industriesIncludes} practical examples of how to write {SDN} applications}
+      \field{day}{06}
+      \field{edition}{1 edition}
+      \field{isbn}{978-0-12-416675-2}
+      \field{month}{06}
+      \field{pagetotal}{352}
+      \field{shorttitle}{Software Defined Networks}
+      \field{title}{Software Defined Networks: A Comprehensive Approach}
+      \field{year}{2014}
+    \endentry
+    \entry{DRDP_for_SDN}{article}{}
+      \name{author}{3}{}{%
+        {{hash=206c80635e1158a49852df6fbefedd56}{Jimenez}{J\bibinitperiod}{Y.}{Y\bibinitperiod}{}{}{}{}}%
+        {{hash=86944d6a4dfef46a47f3a9d43e9c7211}{Cervello-Pastor}{C\bibinithyphendelim P\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=5ebe7ec1b7361b7734912869fce14505}{Garcia}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{775a8ed226a57de038bf58b4099193f5}
+      \strng{fullhash}{775a8ed226a57de038bf58b4099193f5}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1089-7798}
+      \field{journaltitle}{Communications Letters, IEEE}
+      \field{month}{05}
+      \field{number}{5}
+      \field{title}{Dynamic Resource Discovery Protocol for Software Defined Networks}
+      \field{volume}{19}
+      \field{year}{2015}
+      \field{pages}{743\bibrangedash 746}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/LCOMM.2015.2403322
+      \endverb
+      \keyw{computer network management;network theory (graphs);protocols;software defined networking;telecommunication channels;telecommunication network topology;trees (mathematics);SDN dynamic resource discovery protocol;control channel;delay-constrained shortest path;distributed protocol;minimum latency tree;network management;network topology;software defined networking RDP;Delays;Network topology;Nickel;Process control;Protocols;Scalability;Software;Resource Discovery Protocol (RDP);Software Defined Networking (SDN);control layer;controllers;resource discovery protocol (RDP);tree}
+    \endentry
+    \entry{IEEE_SDN_Comprehencieve_Study}{article}{}
+      \name{author}{6}{}{%
+        {{hash=4e95b6102c5e2f6cddcb01eb90a04c7d}{Kreutz}{K\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=45c4de533eb5b4ed7edf9b3182dd3734}{Ramos}{R\bibinitperiod}{F.M.V.}{F\bibinitperiod}{}{}{}{}}%
+        {{hash=5f96d6f4b415227223ab163d10fce934}{Esteves\bibnamedelima Verissimo}{E\bibinitperiod\bibinitdelim V\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=b5ebffc2e03b0cb39cc20571609d45ab}{Esteve\bibnamedelima Rothenberg}{E\bibinitperiod\bibinitdelim R\bibinitperiod}{C.}{C\bibinitperiod}{}{}{}{}}%
+        {{hash=9a8f95261946d4633a22dd27c95ed3b9}{Azodolmolky}{A\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=dcd16e392594d6e860ff65dc0cb2ffb9}{Uhlig}{U\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{fc6dc43c1283286d6bbf87a06ef5a051}
+      \strng{fullhash}{c22b4131cba9217f6d67ad9cdffd9b5c}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9219}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Software-Defined Networking: A Comprehensive Survey}
+      \field{volume}{103}
+      \field{year}{2015}
+      \field{pages}{14\bibrangedash 76}
+      \range{pages}{63}
+      \verb{doi}
+      \verb 10.1109/JPROC.2014.2371999
+      \endverb
+      \keyw{IP networks;application program interfaces;computer network management;computer network reliability;computer network security;software defined networking;telecommunication network routing;telecommunication traffic;API;IP networks;SDN controllers;SDN infrastructure;SDN position analysis;bottom-up-layered approach;carrier transport networks;cloud providers;control planes;control platform design;cross-layer problems;data planes;debugging;dependability;digital society;hardware infrastructure;logical network control centralization;network applications;network control logic separation;network control problem;network management;network operating systems;network policies;network program;network programming languages;network reconfiguration;network virtualization layers;northbound application programming interface;performance analysis;resiliency analysis;routers;scalability analysis;security analysis;software-defined networking;southbound application programming interface;standardization activities;switch platform design;switching hardware;traffic forwarding;troubleshooting;vertically integrated networks;Communication networks;Computer networks;Control systems;IP networks;Software defined networking;Virtualization;Carrier-grade networks;OpenFlow;dependability;flow-based networking;network hypervisor;network operating systems (NOSs);network virtualization;programmable networks;programming languages;scalability;software-defined environments;software-defined networking (SDN)}
+    \endentry
+    \entry{Demystifying_NFV}{book}{}
+      \name{author}{4}{}{%
+        {{hash=5fb039203fa739c104930b63c2cd9e36}{Lynch}{L\bibinitperiod}{Pierre}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=9c8ccea12322c46ffcd57f9a04f3005d}{Haugh}{H\bibinitperiod}{Michael}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=245cb86d3094573b45417962a4f9912a}{Kurtz}{K\bibinitperiod}{Liza}{L\bibinitperiod}{}{}{}{}}%
+        {{hash=37198d5b3a95863e1c37b4b5c2373ba6}{Zeto}{Z\bibinitperiod}{Joe}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {{CreateSpace} Independent Publishing Platform}%
+      }
+      \strng{namehash}{30ba3fe39adb7ab2c9f7012a0a6358f6}
+      \strng{fullhash}{a93e3e6b51dfb37354432cc549027c36}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Network Functions Virtualization ({NFV}) is one of the most profound paradigm shifts the networking industry has faced to date. Proven functions such as routing, policy, firewall, {DPI}, and many others will move from running on dedicated hardware appliances to running on unproven virtualized server platforms in the hope of achieving massive efficiencies. While carriers agree on the need and vision for {NFV}, many are struggling to quantify the benefits, understand the practical migration steps, and measure success: How should they go about replacing their current network architecture, moving from purpose-built physical devices to a virtualized, software-controlled scenario? How will they know with certainty that the migration was successful and justifies their investment? Does the virtualized solution deliver the performance, resiliency, security, elasticity, and quality of experience ({QoE}) needed to satisfy customers? With network usage, user expectations, and competitive threats all on the rise, the risks to operators’ brands and bottom line are too great to leave {NFV} deployments to chance. Everything known becomes unknown again, and there are risks associated both with moving too fast, and not fast enough. From beginning to end, targeted test strategies and methodologies are needed to accelerate and ensure the delivery of {NFV} solutions with guaranteed quality. Ixia solutions validate that the motivations for {NFV} are achievable prior to migration, and that the expected benefits are realized in the virtualized environment. We help operators understand when it makes sense to virtualize an aspect of the network and when it doesn’t, delivering clear insight into the migration process and its ultimate success.}
+      \field{day}{20}
+      \field{edition}{1 edition}
+      \field{isbn}{978-1-5002-6981-4}
+      \field{month}{06}
+      \field{pagetotal}{94}
+      \field{shorttitle}{Demystifying {NFV} in Carrier Networks}
+      \field{title}{Demystifying {NFV} in Carrier Networks: A Definitive Guide to Successful Migrations}
+      \field{year}{2014}
+    \endentry
+    \entry{SDN_Anatomy_of_OpenFlow}{book}{}
+      \name{author}{3}{}{%
+        {{hash=b1480ea0d98e05cf4bf633a4b555441d}{Marschke}{M\bibinitperiod}{Doug}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=a7b888783e29fed7af905163718773d6}{Doyle}{D\bibinitperiod}{Jeff}{J\bibinitperiod}{}{}{}{}}%
+        {{hash=fad5e7fb8c7bffe818a610099d6fcc28}{Moyer}{M\bibinitperiod}{Pete}{P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Lulu Publishing Services}%
+      }
+      \strng{namehash}{88bf263b14920e96ffa6876662a2e087}
+      \strng{fullhash}{88bf263b14920e96ffa6876662a2e087}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Software Defined Networking is revolutionizing the networking world. While the industry transitions to a software-centric architecture, a clear definition of Sdn remains murky at best. This book clarifies the current industry confusion about what Sdn is, why it's important, and most importantly the protocols and use cases that define Sdn. {OpenFlow} (Of) is a critical piece of the Sdn puzzle. While Sdn solutions exist that do not require Of, it is undeniable that Of helped spur the innovation in Sdn. The history of Of, its current and future status, and the associated use cases will be explained in detail in this book. Lastly, the book attempts to lay out Sdn deployments that are real and current today, and apply practicality to the vast world of Sdn architectures.}
+      \field{day}{25}
+      \field{isbn}{978-1-4834-2723-2}
+      \field{month}{03}
+      \field{pagetotal}{178}
+      \field{title}{Software Defined Networking: Anatomy of {OpenFlow} Volume I}
+      \field{year}{2015}
+    \endentry
+    \entry{open_networking_summit_future_????}{video}{}
+      \name{author}{1}{}{%
+        {{hash=83d15f1b1091b239046e2a7283841bec}{{Open\bibnamedelimb Networking\bibnamedelimb Summit}}{O\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{83d15f1b1091b239046e2a7283841bec}
+      \strng{fullhash}{83d15f1b1091b239046e2a7283841bec}
+      \field{sortinit}{O}
+      \field{sortinithash}{7803d2715d5e795e70382b084ab8d00e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Open Networking Summit 2011 Premier Event for {OpenFlow} and Software Defined Networking Stanford October 18-19, 2011}
+      \field{title}{The Future of Networking, and the Past of Protocols - Scott Shenker}
+      \field{urlday}{18}
+      \field{urlmonth}{01}
+      \field{urlyear}{2016}
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=YHeyuD89n1Y
+      \endverb
+      \keyw{Scott,Shenker}
+    \endentry
+    \entry{Bootstrapping_SDN_Controllers}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=c98b41ac0af31d42734bd54c8349a9ba}{Patil}{P\bibinitperiod}{P.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=288975680be97f193177567b179f1571}{Gokhale}{G\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=69a7aa24f73772ececdc3d7f0742902f}{Hakiri}{H\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ff3a0bec26908cd2a84a355356c3f1b9}
+      \strng{fullhash}{ff3a0bec26908cd2a84a355356c3f1b9}
+      \field{sortinit}{P}
+      \field{sortinithash}{c0a4896d0e424f9ca4d7f14f2b3428e7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Network Softwarization (NetSoft), 2015 1st IEEE Conference on}
+      \field{month}{04}
+      \field{title}{Bootstrapping Software Defined Network for flexible and dynamic control plane management}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 5}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/NETSOFT.2015.7116132
+      \endverb
+      \keyw{centralised control;computer bootstrapping;control system synthesis;distributed control;software defined networking;telecommunication control;SDN architectures;SDN control plane design;bootstrapping;control-plane network controlInitSDN;distributed software defined network architecture;dynamic control plane management;host network control;logically centralized controller design;physically distributed controller design;Computer architecture;Control systems;Network topology;Reliability;Software;Synchronization;Topology}
+    \endentry
+    \entry{future_internet-ANA}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=6f822ce126fc0becab8e75502a5d6dd2}{Siekkinen}{S\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=289215d2c62b357011a2778ddf1eee42}{Goebel}{G\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=7f2697cff17c0c87f4887a16238358ca}{Plagemann}{P\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=2e6b7794c918f8aaea8fce4cc177ae9a}{Skevik}{S\bibinitperiod}{K.-A.}{K\bibinithyphendelim A\bibinitperiod}{}{}{}{}}%
+        {{hash=e05b4bbd474a99f0cbe02748b8595d26}{Banfield}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=26880a1a6549bfb754fc7a1201f0e429}{Brusic}{B\bibinitperiod}{I.}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9aedbd8017105d8dad8aad57d08d1f2c}
+      \strng{fullhash}{a755ced29c90dfa4865886f7632cc25f}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We present in this paper an overview of current problems with the Internet from the architectural view point, and we identify and forecast trends for future developments. Our study includes perspectives from different stakeholders of the Internet as well as from the technological development point of view. We conclude that current and future requirements vary greatly between, and even within, different stakeholders, which implies that a successful future network architecture must provide maximum flexibility with a minimal set of "hard-wired" properties. In specific, a revised version of the {TCP}/{IP} layered architecture would only suffice to address some of the current issues, but would not provide a long term solution. We then show that an autonomic network architecture with a few simple architectural building blocks is enough to address a great deal of the requirements today and in the future}
+      \field{booktitle}{11th {IEEE} International Workshop on Future Trends of Distributed Computing Systems, 2007. {FTDCS} '07}
+      \field{eventtitle}{11th {IEEE} International Workshop on Future Trends of Distributed Computing Systems, 2007. {FTDCS} '07}
+      \field{month}{03}
+      \field{title}{Beyond the Future Internet–Requirements of Autonomic Networking Architectures to Address Long Term Future Networking Challenges}
+      \field{year}{2007}
+      \field{pages}{89\bibrangedash 98}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/FTDCS.2007.14
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:/Users/Zelus/Library/Application Support/Zotero/Profiles/o805c9su.default/zotero/storage/27ARP9E4/articleDetails.html:text/html
+      \endverb
+      \keyw{autonomic networking architectures,Computer architecture,Computer network management,Europe,Informatics,Internet,{IP} networks,network architecture,Performance analysis,Service oriented architecture,Standards development,{TCPIP},{TCP}/{IP} layered architecture,transport protocols}
+    \endentry
+    \entry{cache_cast}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a3638741cc3e9d799660c2df4e69d3e6}{Srebrny}{S\bibinitperiod}{P.H.}{P\bibinitperiod}{}{}{}{}}%
+        {{hash=7f2697cff17c0c87f4887a16238358ca}{Plagemann}{P\bibinitperiod}{T.}{T\bibinitperiod}{}{}{}{}}%
+        {{hash=289215d2c62b357011a2778ddf1eee42}{Goebel}{G\bibinitperiod}{V.}{V\bibinitperiod}{}{}{}{}}%
+        {{hash=b0f4b4e6fdbe7019fbe1378d3dfa4f38}{Mauthe}{M\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{a041b8f5401bf51d6097d93b17fa7c44}
+      \strng{fullhash}{e2c8f9ea19d23594ba31e1d7c6ffddd4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Due to the lack of multicast services in the Internet, applications based on single-source, multiple-destination transfers such as video conferencing, {IP} radio, and {IPTV} must use unicast. This type of traffic exhibits high redundancy with temporal clustering of duplicated packets. The redundancy originates from multiple transfers of the same data chunk over the same link. We propose {CacheCast}, a link-layer caching mechanism that eliminates the redundant data transmissions using small caches on links. {CacheCast}'s underlying principles are simplicity and reliability. It is a fully distributed and incrementally deployable architecture. It consists of small caches on links that act independently and a server support that simplifies the link cache operation. Our analysis indicates that transfers of the same data to multiple destinations with {CacheCast} can achieve near-multicast efficiency in terms of consumed link bandwidth. The implementation of {CacheCast} proves its feasibility, efficiency, and the improvements of the server.}
+      \field{issn}{1063-6692}
+      \field{journaltitle}{{IEEE}/{ACM} Transactions on Networking}
+      \field{month}{12}
+      \field{number}{6}
+      \field{shorttitle}{No More D \#x00E9;j \#x00E0; Vu \#x2014;Eliminating Redundancy With {CacheCast}}
+      \field{title}{No More DejaVu Eliminating Redundancy With {CacheCast}: Feasibility and Performance Gains}
+      \field{volume}{21}
+      \field{year}{2013}
+      \field{pages}{1736\bibrangedash 1749}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TNET.2012.2236104
+      \endverb
+      \verb{file}
+      \verb IEEE Xplore Abstract Record:/Users/Zelus/Library/Application Support/Zotero/Profiles/o805c9su.default/zotero/storage/56PS9BTR/articleDetails.html:text/html;IEEE Xplore Full Text PDF:/Users/Zelus/Library/Application Support/Zotero/Profiles/o805c9su.default/zotero/storage/X5PQB3PW/Srebrny et al. - 2013 - No More D #x00E9\;j #x00E0\; Vu #x2014\;Eliminating R.pdf:application/pdf
+      \endverb
+      \keyw{{CacheCast},Cache storage,computer network reliability,computer networks,Indexes,Internet,{IP} networks,{IP} radio,{IPTV},Kernel,link bandwidth consumption,link-layer caching mechanism,multicast communication,multicast service,multiple-destination transfer,near-multicast efficiency,network server,network servers,pattern clustering,Payloads,Redundancy,redundant data transmission elimination,reliability,Servers,single-source transfer,telecommunication services,telecommunication traffic,temporal clustering redundancy,Unicast,video conferencing}
+    \endentry
+    \entry{foundations_2015}{book}{}
+      \name{author}{1}{}{%
+        {{hash=0599c551bf066f66e0e9c44815384cb4}{Stallings}{S\bibinitperiod}{William}{W\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{1}{%
+        {Indianapolis, {IN}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Professional}%
+      }
+      \strng{namehash}{0599c551bf066f66e0e9c44815384cb4}
+      \strng{fullhash}{0599c551bf066f66e0e9c44815384cb4}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Foundations of Modern Networking is a comprehensive, unified survey of modern networking technology and applications for today’s professionals, managers, and students. Dr. William Stallings offers clear and well-organized coverage of five key technologies that are transforming networks: Software-Defined Networks ({SDN}), Network Functions Virtualization ({NFV}), Quality of Experience ({QoE}), the Internet of Things ({IoT}), and cloudbased services.   Dr. Stallings reviews current network ecosystems and the challenges they face–from Big Data and mobility to security and complexity. Next, he offers complete, self-contained coverage of each new set of technologies: how they work, how they are architected, and how they can be applied to solve real problems. Dr. Stallings presents a chapter-length analysis of emerging security issues in modern networks. He concludes with an up-to date discussion of networking careers, including important recent changes in roles and skill requirements.   Coverage:   Elements of the modern networking ecosystem: technologies, architecture, services, and applications Evolving requirements of current network environments {SDN}: concepts, rationale, applications, and standards across data, control, and application planes {OpenFlow}, {OpenDaylight}, and other key {SDN} technologies Network functions virtualization: concepts, technology, applications, and software defined infrastructure Ensuring customer Quality of Experience ({QoE}) with interactive video and multimedia network traffic Cloud networking: services, deployment models, architecture, and linkages to {SDN} and {NFV} {IoT} and fog computing in depth: key components of {IoT}-enabled devices, model architectures, and example implementations Securing {SDN}, {NFV}, cloud, and {IoT} environments Career preparation and ongoing education for tomorrow’s networking careers   Key Features:   Strong coverage of unifying principles and practical techniques More than a hundred figures that clarify key concepts Web support at williamstallings.com/Network/ {QR} codes throughout, linking to the website and other resources Keyword/acronym lists, recommended readings, and glossary Margin note definitions of key words throughout the text}
+      \field{day}{08}
+      \field{edition}{1 edition}
+      \field{isbn}{978-0-13-417539-3}
+      \field{month}{11}
+      \field{pagetotal}{544}
+      \field{shorttitle}{Foundations of Modern Networking}
+      \field{title}{Foundations of Modern Networking: {SDN}, {NFV}, {QoE}, {IoT}, and Cloud}
+      \field{year}{2015}
+    \endentry
+    \entry{Decentralized_and_adaptive_SDN}{inproceedings}{}
+      \name{author}{6}{}{%
+        {{hash=bf6d71061254b3db82097f0852a65cec}{Zerrik}{Z\bibinitperiod}{S.}{S\bibinitperiod}{}{}{}{}}%
+        {{hash=5e7dd6b004712260c185cf2a36a11c97}{El\bibnamedelima ouadghiri}{E\bibinitperiod\bibinitdelim o\bibinitperiod}{A.}{A\bibinitperiod}{}{}{}{}}%
+        {{hash=63cce08cab235dee05a28d53750aaca5}{El\bibnamedelima Ouadghiri}{E\bibinitperiod\bibinitdelim O\bibinitperiod}{D.}{D\bibinitperiod}{}{}{}{}}%
+        {{hash=343ce1d159e2d17910ae8bf739cfc5a5}{Atay}{A\bibinitperiod}{R.}{R\bibinitperiod}{}{}{}{}}%
+        {{hash=5e4881c690996b42c3dce328fa387c81}{Bakhouya}{B\bibinitperiod}{M.}{M\bibinitperiod}{}{}{}{}}%
+        {{hash=18a0e157a7b449e4d32dac68c0cdf49d}{Gaber}{G\bibinitperiod}{J.}{J\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{b71264c08f903d2a959386f74784935e}
+      \strng{fullhash}{8221f560dd102fae145ccba8af70ca4b}
+      \field{sortinit}{Z}
+      \field{sortinithash}{fdda4caaa6b5fa63e0c081dcb159543a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Next Generation Networks and Services (NGNS), 2014 Fifth International Conference on}
+      \field{month}{05}
+      \field{title}{Towards a decentralized and adaptive software-defined networking architecture}
+      \field{year}{2014}
+      \field{pages}{326\bibrangedash 329}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/NGNS.2014.6990272
+      \endverb
+      \keyw{open systems;self-adjusting systems;software defined networking;SDN architectures;control decisions;decentralized architecture;design concepts;forwarding hardware;networking paradigm;operation modes;programmable networks;self-organizing capabilities;software-defined networking;Cloud computing;Computer architecture;Conferences;Control systems;Hardware;Scalability;Software defined networking;Openflow;Scalability and adaptability of SDN architectures;Software defined networking}
+    \endentry
+  \endsortlist
+  \missing{future_internet_ANA}
+  \missing{sdn_Anatomy_of_OpenFlow}
+  \missing{marschke_software_2015}
+  \missing{p 48}
+  \missing{SDN_Comprehencieve}
+  \missing{_software_2014}
+  \missing{ana}
+  \missing{sdn_2013}
+  \missing{SDN-A comprehensive approach}
+\endrefsection
+\endinput
+

@@ -1,0 +1,810 @@
+\ifglsentryexists{sdn}{}%
+{%
+\gls@defglossaryentry{sdn}%
+{%
+name={SDN},%
+sort={SDN},%
+type={acronym},%
+first={Software Defined Network\glsspace (SDN)},%
+firstplural={Software Defined Networks\glsspace (SDNs)},%
+text={SDN},%
+plural={SDNs},%
+description={Software Defined Network},%
+descriptionplural={Software Defined Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Software Defined Network},%
+longplural={Software Defined Networks},%
+short={SDN},%
+shortplural={SDNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{capex}{}%
+{%
+\gls@defglossaryentry{capex}%
+{%
+name={CAPEX},%
+sort={CAPEX},%
+type={acronym},%
+first={Capital expences\glsspace (CAPEX)},%
+firstplural={Capital expencess\glsspace (CAPEXs)},%
+text={CAPEX},%
+plural={CAPEXs},%
+description={Capital expences},%
+descriptionplural={Capital expences\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Capital expences},%
+longplural={Capital expencess},%
+short={CAPEX},%
+shortplural={CAPEXs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{opex}{}%
+{%
+\gls@defglossaryentry{opex}%
+{%
+name={OPEX},%
+sort={OPEX},%
+type={acronym},%
+first={Operational expences\glsspace (OPEX)},%
+firstplural={Operational expencess\glsspace (OPEXs)},%
+text={OPEX},%
+plural={OPEXs},%
+description={Operational expences},%
+descriptionplural={Operational expences\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Operational expences},%
+longplural={Operational expencess},%
+short={OPEX},%
+shortplural={OPEXs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fib}{}%
+{%
+\gls@defglossaryentry{fib}%
+{%
+name={FIB},%
+sort={FIB},%
+type={acronym},%
+first={Forwarding Information Base\glsspace (FIB)},%
+firstplural={Forwarding Information Bases\glsspace (FIBs)},%
+text={FIB},%
+plural={FIBs},%
+description={Forwarding Information Base},%
+descriptionplural={Forwarding Information Base\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Forwarding Information Base},%
+longplural={Forwarding Information Bases},%
+short={FIB},%
+shortplural={FIBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nos}{}%
+{%
+\gls@defglossaryentry{nos}%
+{%
+name={NOS},%
+sort={NOS},%
+type={acronym},%
+first={Network Operating System\glsspace (NOS)},%
+firstplural={Network Operating Systems\glsspace (NOSs)},%
+text={NOS},%
+plural={NOSs},%
+description={Network Operating System},%
+descriptionplural={Network Operating System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Operating System},%
+longplural={Network Operating Systems},%
+short={NOS},%
+shortplural={NOSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rest}{}%
+{%
+\gls@defglossaryentry{rest}%
+{%
+name={REST},%
+sort={REST},%
+type={acronym},%
+first={Representational state transfer\glsspace (REST)},%
+firstplural={Representational state transfers\glsspace (RESTs)},%
+text={REST},%
+plural={RESTs},%
+description={Representational state transfer},%
+descriptionplural={Representational state transfer\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Representational state transfer},%
+longplural={Representational state transfers},%
+short={REST},%
+shortplural={RESTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{json}{}%
+{%
+\gls@defglossaryentry{json}%
+{%
+name={JSON},%
+sort={JSON},%
+type={acronym},%
+first={JavaScript Object Notation\glsspace (JSON)},%
+firstplural={JavaScript Object Notations\glsspace (JSONs)},%
+text={JSON},%
+plural={JSONs},%
+description={JavaScript Object Notation},%
+descriptionplural={JavaScript Object Notation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={JavaScript Object Notation},%
+longplural={JavaScript Object Notations},%
+short={JSON},%
+shortplural={JSONs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{xml}{}%
+{%
+\gls@defglossaryentry{xml}%
+{%
+name={XML},%
+sort={XML},%
+type={acronym},%
+first={Extensible Markup Language\glsspace (XML)},%
+firstplural={Extensible Markup Languages\glsspace (XMLs)},%
+text={XML},%
+plural={XMLs},%
+description={Extensible Markup Language},%
+descriptionplural={Extensible Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Extensible Markup Language},%
+longplural={Extensible Markup Languages},%
+short={XML},%
+shortplural={XMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{html}{}%
+{%
+\gls@defglossaryentry{html}%
+{%
+name={HTML},%
+sort={HTML},%
+type={acronym},%
+first={HyperText Markup Language\glsspace (HTML)},%
+firstplural={HyperText Markup Languages\glsspace (HTMLs)},%
+text={HTML},%
+plural={HTMLs},%
+description={HyperText Markup Language},%
+descriptionplural={HyperText Markup Language\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={HyperText Markup Language},%
+longplural={HyperText Markup Languages},%
+short={HTML},%
+shortplural={HTMLs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{dns}{}%
+{%
+\gls@defglossaryentry{dns}%
+{%
+name={DNS},%
+sort={DNS},%
+type={acronym},%
+first={Domain Name System\glsspace (DNS)},%
+firstplural={Domain Name Systems\glsspace (DNSs)},%
+text={DNS},%
+plural={DNSs},%
+description={Domain Name System},%
+descriptionplural={Domain Name System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Domain Name System},%
+longplural={Domain Name Systems},%
+short={DNS},%
+shortplural={DNSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ldap}{}%
+{%
+\gls@defglossaryentry{ldap}%
+{%
+name={LDAP},%
+sort={LDAP},%
+type={acronym},%
+first={Lightweight Directory Access Protocol\glsspace (LDAP)},%
+firstplural={Lightweight Directory Access Protocols\glsspace (LDAPs)},%
+text={LDAP},%
+plural={LDAPs},%
+description={Lightweight Directory Access Protocol},%
+descriptionplural={Lightweight Directory Access Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Lightweight Directory Access Protocol},%
+longplural={Lightweight Directory Access Protocols},%
+short={LDAP},%
+shortplural={LDAPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bgp}{}%
+{%
+\gls@defglossaryentry{bgp}%
+{%
+name={BGP},%
+sort={BGP},%
+type={acronym},%
+first={Border Gateway Protocol\glsspace (BGP)},%
+firstplural={Border Gateway Protocols\glsspace (BGPs)},%
+text={BGP},%
+plural={BGPs},%
+description={Border Gateway Protocol},%
+descriptionplural={Border Gateway Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Border Gateway Protocol},%
+longplural={Border Gateway Protocols},%
+short={BGP},%
+shortplural={BGPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ntp}{}%
+{%
+\gls@defglossaryentry{ntp}%
+{%
+name={NTP},%
+sort={NTP},%
+type={acronym},%
+first={Network Time Protocol\glsspace (NTP)},%
+firstplural={Network Time Protocols\glsspace (NTPs)},%
+text={NTP},%
+plural={NTPs},%
+description={Network Time Protocol},%
+descriptionplural={Network Time Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Time Protocol},%
+longplural={Network Time Protocols},%
+short={NTP},%
+shortplural={NTPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sip}{}%
+{%
+\gls@defglossaryentry{sip}%
+{%
+name={SIP},%
+sort={SIP},%
+type={acronym},%
+first={Session Initiation Protocol\glsspace (SIP)},%
+firstplural={Session Initiation Protocols\glsspace (SIPs)},%
+text={SIP},%
+plural={SIPs},%
+description={Session Initiation Protocol},%
+descriptionplural={Session Initiation Protocol\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Session Initiation Protocol},%
+longplural={Session Initiation Protocols},%
+short={SIP},%
+shortplural={SIPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{api}{}%
+{%
+\gls@defglossaryentry{api}%
+{%
+name={API},%
+sort={API},%
+type={acronym},%
+first={Application programming interface\glsspace (API)},%
+firstplural={Application programming interfaces\glsspace (APIs)},%
+text={API},%
+plural={APIs},%
+description={Application programming interface},%
+descriptionplural={Application programming interface\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Application programming interface},%
+longplural={Application programming interfaces},%
+short={API},%
+shortplural={APIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{voip}{}%
+{%
+\gls@defglossaryentry{voip}%
+{%
+name={VoIP},%
+sort={VoIP},%
+type={acronym},%
+first={Voice over IP\glsspace (VoIP)},%
+firstplural={Voice over IPs\glsspace (VoIPs)},%
+text={VoIP},%
+plural={VoIPs},%
+description={Voice over IP},%
+descriptionplural={Voice over IP\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Voice over IP},%
+longplural={Voice over IPs},%
+short={VoIP},%
+shortplural={VoIPs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ietf}{}%
+{%
+\gls@defglossaryentry{ietf}%
+{%
+name={IETF},%
+sort={IETF},%
+type={acronym},%
+first={Internet Engineering Task Force\glsspace (IETF)},%
+firstplural={Internet Engineering Task Forces\glsspace (IETFs)},%
+text={IETF},%
+plural={IETFs},%
+description={Internet Engineering Task Force},%
+descriptionplural={Internet Engineering Task Force\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Internet Engineering Task Force},%
+longplural={Internet Engineering Task Forces},%
+short={IETF},%
+shortplural={IETFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fmn}{}%
+{%
+\gls@defglossaryentry{fmn}%
+{%
+name={FMN},%
+sort={FMN},%
+type={acronym},%
+first={Federated Mission Network\glsspace (FMN)},%
+firstplural={Federated Mission Networks\glsspace (FMNs)},%
+text={FMN},%
+plural={FMNs},%
+description={Federated Mission Network},%
+descriptionplural={Federated Mission Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Federated Mission Network},%
+longplural={Federated Mission Networks},%
+short={FMN},%
+shortplural={FMNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{jmei}{}%
+{%
+\gls@defglossaryentry{jmei}%
+{%
+name={JMEI},%
+sort={JMEI},%
+type={acronym},%
+first={Joining Memebership and Exiting Instructions\glsspace (JMEI)},%
+firstplural={Joining Memebership and Exiting Instructionss\glsspace (JMEIs)},%
+text={JMEI},%
+plural={JMEIs},%
+description={Joining Memebership and Exiting Instructions},%
+descriptionplural={Joining Memebership and Exiting Instructions\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Joining Memebership and Exiting Instructions},%
+longplural={Joining Memebership and Exiting Instructionss},%
+short={JMEI},%
+shortplural={JMEIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{amn}{}%
+{%
+\gls@defglossaryentry{amn}%
+{%
+name={AMN},%
+sort={AMN},%
+type={acronym},%
+first={Afghan Mission Network\glsspace (AMN)},%
+firstplural={Afghan Mission Networks\glsspace (AMNs)},%
+text={AMN},%
+plural={AMNs},%
+description={Afghan Mission Network},%
+descriptionplural={Afghan Mission Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Afghan Mission Network},%
+longplural={Afghan Mission Networks},%
+short={AMN},%
+shortplural={AMNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{tacoms}{}%
+{%
+\gls@defglossaryentry{tacoms}%
+{%
+name={TACOMS},%
+sort={TACOMS},%
+type={acronym},%
+first={Tactical Communications\glsspace (TACOMS)},%
+firstplural={Tactical Communicationss\glsspace (TACOMSs)},%
+text={TACOMS},%
+plural={TACOMSs},%
+description={Tactical Communications},%
+descriptionplural={Tactical Communications\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Tactical Communications},%
+longplural={Tactical Communicationss},%
+short={TACOMS},%
+shortplural={TACOMSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{sow}{}%
+{%
+\gls@defglossaryentry{sow}%
+{%
+name={SOW},%
+sort={SOW},%
+type={acronym},%
+first={Statement of work\glsspace (SOW)},%
+firstplural={Statement of works\glsspace (SOWs)},%
+text={SOW},%
+plural={SOWs},%
+description={Statement of work},%
+descriptionplural={Statement of work\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Statement of work},%
+longplural={Statement of works},%
+short={SOW},%
+shortplural={SOWs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mou}{}%
+{%
+\gls@defglossaryentry{mou}%
+{%
+name={MOU},%
+sort={MOU},%
+type={acronym},%
+first={memorandum of understanding\glsspace (MOU)},%
+firstplural={memorandum of understandings\glsspace (MOUs)},%
+text={MOU},%
+plural={MOUs},%
+description={memorandum of understanding},%
+descriptionplural={memorandum of understanding\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={memorandum of understanding},%
+longplural={memorandum of understandings},%
+short={MOU},%
+shortplural={MOUs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{stanag}{}%
+{%
+\gls@defglossaryentry{stanag}%
+{%
+name={STANAG},%
+sort={STANAG},%
+type={acronym},%
+first={Standardization Agreement\glsspace (STANAG)},%
+firstplural={Standardization Agreements\glsspace (STANAGs)},%
+text={STANAG},%
+plural={STANAGs},%
+description={Standardization Agreement},%
+descriptionplural={Standardization Agreement\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Standardization Agreement},%
+longplural={Standardization Agreements},%
+short={STANAG},%
+shortplural={STANAGs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nato}{}%
+{%
+\gls@defglossaryentry{nato}%
+{%
+name={NATO},%
+sort={NATO},%
+type={acronym},%
+first={North Atlantic Treaty Organization\glsspace (NATO)},%
+firstplural={North Atlantic Treaty Organizations\glsspace (NATOs)},%
+text={NATO},%
+plural={NATOs},%
+description={North Atlantic Treaty Organization},%
+descriptionplural={North Atlantic Treaty Organization\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={North Atlantic Treaty Organization},%
+longplural={North Atlantic Treaty Organizations},%
+short={NATO},%
+shortplural={NATOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cwix}{}%
+{%
+\gls@defglossaryentry{cwix}%
+{%
+name={CWIX},%
+sort={CWIX},%
+type={acronym},%
+first={Coalition Warrior Interoperability eXploration, eXperimentation, eXamination, eXercise\glsspace (CWIX)},%
+firstplural={Coalition Warrior Interoperability eXploration, eXperimentation, eXamination, eXercises\glsspace (CWIXs)},%
+text={CWIX},%
+plural={CWIXs},%
+description={Coalition Warrior Interoperability eXploration, eXperimentation, eXamination, eXercise},%
+descriptionplural={Coalition Warrior Interoperability eXploration, eXperimentation, eXamination, eXercise\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Coalition Warrior Interoperability eXploration, eXperimentation, eXamination, eXercise},%
+longplural={Coalition Warrior Interoperability eXploration, eXperimentation, eXamination, eXercises},%
+short={CWIX},%
+shortplural={CWIXs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{}{}%
+{%
+\gls@defglossaryentry{}%
+{%
+name={},%
+sort={},%
+type={acronym},%
+first={\glsspace ()},%
+firstplural={s\glsspace (s)},%
+text={},%
+plural={s},%
+description={},%
+descriptionplural={\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={s},%
+short={},%
+shortplural={s},%
+counter={page},%
+parent={},%
+%
+}%
+}%

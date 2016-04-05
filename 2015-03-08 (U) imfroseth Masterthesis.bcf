@@ -2235,6 +2235,16 @@
     <bcf:datasource type="file" datatype="bibtex">mybib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
+    <bcf:citekey order="1">open_networking_summit_future_????</bcf:citekey>
+    <bcf:citekey order="2">IEEE_SDN_Comprehencieve_Study</bcf:citekey>
+    <bcf:citekey order="3">Decentralized_and_adaptive_SDN</bcf:citekey>
+    <bcf:citekey order="4">Demystifying_NFV</bcf:citekey>
+    <bcf:citekey order="5">marschke_software_2015</bcf:citekey>
+    <bcf:citekey order="6">sdn_2013</bcf:citekey>
+    <bcf:citekey order="7">foundations_2015</bcf:citekey>
+    <bcf:citekey order="8">_software_2014</bcf:citekey>
+    <bcf:citekey order="9">future_internet-ANA</bcf:citekey>
+    <bcf:citekey order="10">cache_cast</bcf:citekey>
   </bcf:section>
   <bcf:sortlist section="0" name="nty" type="entry" sortscheme="nty">
   <bcf:sorting>

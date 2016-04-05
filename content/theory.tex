@@ -1,0 +1,57 @@
+\chapter{State of the Art}
+\section{Software defined networks}
+In this section I will first try to define what a \gls{sdn} are. Then we will look at different components of an \gls{sdn} like the controller, the networking element and the different \gls{api}s.
+\subsection{SDN terminology and definition}
+\label{sec:sdn_definition}
+If you read books or papers about \gls{sdn} you would most likely find many different flavor of a definition for \gls{sdn}. Some will define it as a framework \cite{SDN_Anatomy_of_OpenFlow}, other defines it as an architecture with a centalization of the control plane \cite{SDN_Comprehensive} \cite{foundations_2015}. Nevertheless, what they usually have in common is that they define \gls{sdn} to be a way to make networks programmable by separating the control and data plane and connecting them through well defined \gls{api}s\cite{SDN_Anatomy_of_OpenFlow}. Where the dataplane is the part of the network that forward data from one port to another based on the \gls{fib} or forwarding table and the control plane is the part of the network that make forwarding decision and populate the \gls{fib}. 
+\par
+I will use this definition through this thesis and I would also emphasize that the location of the control plane does not have to be a single centralized controller. There are many advantages by centralizing the control plane like faster response to link failure because the information does not have to propagate through multiple nodes, loop avoidance since the controller has the complete picture, added agility when there is only one controller to configure, increased reliability due to less direct human interaction and centralized policy enforcement \cite{SDN_Anatomy_of_OpenFlow}. The obvious drawbacks are a single point of failure and attack focus, scale and latency when updating the switch which can lead to temporarily microloops (also an issue in todays networks) \cite{SDN_Anatomy_of_OpenFlow}  \cite{SDN_Comprehensive, p 48}. In addition military networks are usually connected with radio links or even sattelite with high latency and low bandwidth which amplifies the drawbacks with a centralized controller. As we will see later in this thesis there has to be some sort of dynamic controll assignment so that the network can take advantage of centralized controller when it is in a stable state but also has some kind of mechanism to function autonomously when disconnected from the controller. 
+\par
+Figure \ref{fig:sdn_components} shows the components of a \gls{sdn}, with the data plane which resieds on a Network element, the control plane on the \gls{sdn} controller, the management plane which are annotated as applications or services and standardised \gls{api}s to communicate between these elements. The next few section would go more in details about these component. 
+
+
+\begin{figure}
+\includegraphics[width=5in]{content/img/sdn_components.png}
+\caption{\gls{sdn} components}
+\label{fig:sdn_components}
+\end{figure} 
+
+
+\subsection{Networking Element}
+In traditional networks it is usual to distinguish between routers which operates on layer three and switches which operates on layer two,there are even a third class of devices known as L3 switches. The biggest difference between these devices lies in the control plane and how they get knowledge about the network and populate the \gls{fib}. When looking at the data plane all devices have the same mission - to forward data entring on one port to another port. In \gls{sdn} the control plane is logically separated from the physical data plane, hence all these devices are really just forwarding elements. 
+
+\subsection{\gls{sdn} Controller}
+======THIS SECTION HAS TO BE REWRITTEN========
+The device that holds the controller logic a software defined network is often called a \gls{sdn} controller or a \gls{nos}. Many examples: OpenDaylight (open source controller) Floodlight, Cisco XNC, POX, NOX, ONOS, Beacon, Trema, Maestro, NodeFlow. There are huge differences between these controllers. Both regarding their \gls{api}s and what features they support.  
+
+
+\subsection{XX-bound \gls{api}}
+As mentioned in \ref{sec:sdn_definition} \gls{sdn} is about making networks programmable through well defined \gls{api}s. The purpose of an \gls{api} is to enable interaction between components, and . As figure \ref{fig:sdn_components} shows it is usual to categories the \gls{api}s in three different categories. The Southbound \gls{api} is the interface towards the networking element, and OpenFlow and Netconf are examples of open source Southbound \gls{api}s while OnePK is a Cisco propiritary protocol. The Northbound \gls{api} is the interface of the controller towards applications or services. These \gls{api} make some abstractions so the application should not have to care about the detailed configuration of the networking element. A often used Northbound \gls{api} are \gls{rest} \gls{api}. A \gls{rest} \gls{api} often communicates over HTTP and uses a standard representation format like \gls{json}, \gls{html} or \gls{xml}. Other Northbound \gls{api}s are programming languages like JAVA or propritary \gls{api}s. The East / Westbound \gls{api} are \gls{api}s to communicate between \gls{nos} or Controllers SDNi, BGP, AMQP.
+
+
+\subsubsection{OpenFlow}
+OF protocol, instruction set, architectue => interface\cite{sdn_Anatomy_of_OpenFlow} 
+
+OF components:
+
+\subsection{ONOS controller} 
+
+\section{Distribution}
+\subsection{Techniques}
+\subsection{Leader Election}
+\subsection{Synchronization}
+
+\section{Federated Networks}
+\subsection{Federated Mission Network}
+\cite{http://www.act.nato.int/fmn}
+\gls{fmn} and \gls{jmei}. Define number plans and protocols for how to connect to each nation. BGP, NTP, SNMP, ... Five service: Each nation has to manually configure their BGP peers before each . 
+
+Four leel of capability, Mission Network Element (MNE), Mission Network eXtension (MNX) - self served but may not include sufficient mission essential services, Hosted User, other entities
+
+
+FMN Affiliate : " NATO and Non-NATO nations are encouraged to become FMN Affiliates, which implies they will maintain and further develop capabilities for federated mission networks and ensure CIS security and interoperability compliance with FMN standards and principles. FMN Affiliates will be able to contribute FMN-ready forces to a mission on short notice and with minimal preparation."
+
+\subsection{Protected Core Networks}
+\section{TACOMS}
+\include{./content/tacoms}
+BGP to share information. SOW6-8. Delivered the first STANAG TACOMS phase 1 in 2010. TACOMS+ next phase. Terminated March 2016. IPO opened in 1998 \cite{tacoms.org}.  8 Statement of Needs. Architecture, Phase 1 QuickWins, Reference implementation, Support to NATO FMN, Security, Agility and Flexibility, CO Services, Future IOP Bearers and Interfaces. Based on standard routing protocol to share information. RIP, RIPng and BGPv6. 
