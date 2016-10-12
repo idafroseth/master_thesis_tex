@@ -1,0 +1,58 @@
+\documentclass[UKenglish]{ifimaster}  %% ... or USenglish or norsk or nynorsk
+\usepackage[latin1]{inputenc}         %% ... or utf8 or applemac
+\usepackage[T1]{fontenc,url}
+\urlstyle{sf}
+\usepackage{babel,textcomp,csquotes,ifimasterforside,varioref,graphicx}
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{requirement}[equation]{Requirement}
+
+\usepackage[backend=biber,style=numeric-comp]{biblatex}
+\usepackage{datatool}
+\usepackage{hyperref}
+\usepackage[acronym]{glossaries}
+\makeglossaries
+
+\title{Smart phone apps for military situational awareness}        %% ... or whatever
+%\subtitle{The next generation}   %% ... if any
+\author{Ida Marie Fr{\o}seth}              
+\bibliography{mybib}           
+\begin{document}
+\ififorside{}
+\frontmatter{}
+\maketitle{}
+
+
+%\input{./content/problemDescription}
+\input{./content/abstract}
+\input{./content/preface}
+\input{./content/acknowledgements}
+\input{./glossary}
+
+
+\tableofcontents{}
+\listoffigures{}
+\listoftables{}
+\printglossary[type=\acronymtype,title=Abbreviations]
+
+\mainmatter{}
+
+\input{./content/introduction}
+
+%\input{./content/the_smart_project}
+\input{./content/analysis}
+%\input{./content/theory}
+
+\input{./content/design}
+
+%\input{./content/test_setup}
+\input{./content/results_evaluation}
+\input{./content/conclusion}
+
+\printbibliography
+\input{content/Appendix}
+
+\backmatter{}
+
+
+\end{document}

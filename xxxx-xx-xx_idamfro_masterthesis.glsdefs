@@ -1,0 +1,690 @@
+\ifglsentryexists{uio}{}%
+{%
+\gls@defglossaryentry{uio}%
+{%
+name={UiO},%
+sort={UiO},%
+type={acronym},%
+first={the University of Oslo\glsspace (UiO)},%
+firstplural={the University of Oslos\glsspace (UiOs)},%
+text={UiO},%
+plural={UiOs},%
+description={the University of Oslo},%
+descriptionplural={the University of Oslo\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={the University of Oslo},%
+longplural={the University of Oslos},%
+short={UiO},%
+shortplural={UiOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ffi}{}%
+{%
+\gls@defglossaryentry{ffi}%
+{%
+name={FFI},%
+sort={FFI},%
+type={acronym},%
+first={Norwegian Defence Research Establishment\glsspace (FFI)},%
+firstplural={Norwegian Defence Research Establishments\glsspace (FFIs)},%
+text={FFI},%
+plural={FFIs},%
+description={Norwegian Defence Research Establishment},%
+descriptionplural={Norwegian Defence Research Establishment\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Norwegian Defence Research Establishment},%
+longplural={Norwegian Defence Research Establishments},%
+short={FFI},%
+shortplural={FFIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{caged}{}%
+{%
+\gls@defglossaryentry{caged}%
+{%
+name={CAGED},%
+sort={CAGED},%
+type={acronym},%
+first={Communication Application with Geographical Element Data\glsspace (CAGED)},%
+firstplural={Communication Application with Geographical Element Datas\glsspace (CAGEDs)},%
+text={CAGED},%
+plural={CAGEDs},%
+description={Communication Application with Geographical Element Data},%
+descriptionplural={Communication Application with Geographical Element Data\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Communication Application with Geographical Element Data},%
+longplural={Communication Application with Geographical Element Datas},%
+short={CAGED},%
+shortplural={CAGEDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{re}{}%
+{%
+\gls@defglossaryentry{re}%
+{%
+name={RE},%
+sort={RE},%
+type={acronym},%
+first={Requirement Engineering\glsspace (RE)},%
+firstplural={Requirement Engineerings\glsspace (REs)},%
+text={RE},%
+plural={REs},%
+description={Requirement Engineering},%
+descriptionplural={Requirement Engineering\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Requirement Engineering},%
+longplural={Requirement Engineerings},%
+short={RE},%
+shortplural={REs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{foss}{}%
+{%
+\gls@defglossaryentry{foss}%
+{%
+name={FOSS},%
+sort={FOSS},%
+type={acronym},%
+first={Free Open Source Software\glsspace (FOSS)},%
+firstplural={Free Open Source Softwares\glsspace (FOSSs)},%
+text={FOSS},%
+plural={FOSSs},%
+description={Free Open Source Software},%
+descriptionplural={Free Open Source Software\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Free Open Source Software},%
+longplural={Free Open Source Softwares},%
+short={FOSS},%
+shortplural={FOSSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{he}{}%
+{%
+\gls@defglossaryentry{he}%
+{%
+name={HE},%
+sort={HE},%
+type={acronym},%
+first={Heuristic Evaluation\glsspace (HE)},%
+firstplural={Heuristic Evaluations\glsspace (HEs)},%
+text={HE},%
+plural={HEs},%
+description={Heuristic Evaluation},%
+descriptionplural={Heuristic Evaluation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Heuristic Evaluation},%
+longplural={Heuristic Evaluations},%
+short={HE},%
+shortplural={HEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hci}{}%
+{%
+\gls@defglossaryentry{hci}%
+{%
+name={HCI},%
+sort={HCI},%
+type={acronym},%
+first={Human Computer Interactions\glsspace (HCI)},%
+firstplural={Human Computer Interactionss\glsspace (HCIs)},%
+text={HCI},%
+plural={HCIs},%
+description={Human Computer Interactions},%
+descriptionplural={Human Computer Interactions\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Human Computer Interactions},%
+longplural={Human Computer Interactionss},%
+short={HCI},%
+shortplural={HCIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{bft}{}%
+{%
+\gls@defglossaryentry{bft}%
+{%
+name={BFT},%
+sort={BFT},%
+type={acronym},%
+first={Blue Force Tracking\glsspace (BFT)},%
+firstplural={Blue Force Trackings\glsspace (BFTs)},%
+text={BFT},%
+plural={BFTs},%
+description={Blue Force Tracking},%
+descriptionplural={Blue Force Tracking\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Blue Force Tracking},%
+longplural={Blue Force Trackings},%
+short={BFT},%
+shortplural={BFTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{c2is}{}%
+{%
+\gls@defglossaryentry{c2is}%
+{%
+name={C2IS},%
+sort={C2IS},%
+type={acronym},%
+first={Command and Control Information System\glsspace (C2IS)},%
+firstplural={Command and Control Information Systems\glsspace (C2ISs)},%
+text={C2IS},%
+plural={C2ISs},%
+description={Command and Control Information System},%
+descriptionplural={Command and Control Information System\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Command and Control Information System},%
+longplural={Command and Control Information Systems},%
+short={C2IS},%
+shortplural={C2ISs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{hv}{}%
+{%
+\gls@defglossaryentry{hv}%
+{%
+name={HV},%
+sort={HV},%
+type={acronym},%
+first={Home Guard\glsspace (HV)},%
+firstplural={Home Guards\glsspace (HVs)},%
+text={HV},%
+plural={HVs},%
+description={Home Guard},%
+descriptionplural={Home Guard\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Home Guard},%
+longplural={Home Guards},%
+short={HV},%
+shortplural={HVs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{isty}{}%
+{%
+\gls@defglossaryentry{isty}%
+{%
+name={ISTY},%
+sort={ISTY},%
+type={acronym},%
+first={Rapid-reaction Intervention Forces \glsspace (ISTY)},%
+firstplural={Rapid-reaction Intervention Forces s\glsspace (ISTYs)},%
+text={ISTY},%
+plural={ISTYs},%
+description={Rapid-reaction Intervention Forces},%
+descriptionplural={Rapid-reaction Intervention Forces \acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Rapid-reaction Intervention Forces},%
+longplural={Rapid-reaction Intervention Forces s},%
+short={ISTY},%
+shortplural={ISTYs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nffi}{}%
+{%
+\gls@defglossaryentry{nffi}%
+{%
+name={NFFI},%
+sort={NFFI},%
+type={acronym},%
+first={NATO Friendly Force Information\glsspace (NFFI)},%
+firstplural={NATO Friendly Force Informations\glsspace (NFFIs)},%
+text={NFFI},%
+plural={NFFIs},%
+description={NATO Friendly Force Information},%
+descriptionplural={NATO Friendly Force Information\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={NATO Friendly Force Information},%
+longplural={NATO Friendly Force Informations},%
+short={NFFI},%
+shortplural={NFFIs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{fmn}{}%
+{%
+\gls@defglossaryentry{fmn}%
+{%
+name={FMN},%
+sort={FMN},%
+type={acronym},%
+first={Federated Mission Network\glsspace (FMN)},%
+firstplural={Federated Mission Networks\glsspace (FMNs)},%
+text={FMN},%
+plural={FMNs},%
+description={Federated Mission Network},%
+descriptionplural={Federated Mission Network\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Federated Mission Network},%
+longplural={Federated Mission Networks},%
+short={FMN},%
+shortplural={FMNs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{mgrs}{}%
+{%
+\gls@defglossaryentry{mgrs}%
+{%
+name={MGRS},%
+sort={MGRS},%
+type={acronym},%
+first={Military grid reference system\glsspace (MGRS)},%
+firstplural={Military grid reference systems\glsspace (MGRSs)},%
+text={MGRS},%
+plural={MGRSs},%
+description={Military grid reference system},%
+descriptionplural={Military grid reference system\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Military grid reference system},%
+longplural={Military grid reference systems},%
+short={MGRS},%
+shortplural={MGRSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nato}{}%
+{%
+\gls@defglossaryentry{nato}%
+{%
+name={NATO},%
+sort={NATO},%
+type={acronym},%
+first={North Atlantic Treaty Organization\glsspace (NATO)},%
+firstplural={North Atlantic Treaty Organizations\glsspace (NATOs)},%
+text={NATO},%
+plural={NATOs},%
+description={North Atlantic Treaty Organization},%
+descriptionplural={North Atlantic Treaty Organization\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={North Atlantic Treaty Organization},%
+longplural={North Atlantic Treaty Organizations},%
+short={NATO},%
+shortplural={NATOs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nbf}{}%
+{%
+\gls@defglossaryentry{nbf}%
+{%
+name={NBF},%
+sort={NBF},%
+type={acronym},%
+first={Network Centric Defence\glsspace (NBF)},%
+firstplural={Network Centric Defences\glsspace (NBFs)},%
+text={NBF},%
+plural={NBFs},%
+description={Network Centric Defence},%
+descriptionplural={Network Centric Defence\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Network Centric Defence},%
+longplural={Network Centric Defences},%
+short={NBF},%
+shortplural={NBFs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{nnec}{}%
+{%
+\gls@defglossaryentry{nnec}%
+{%
+name={NNEC},%
+sort={NNEC},%
+type={acronym},%
+first={NATO Network Enabled Capability\glsspace (NNEC)},%
+firstplural={NATO Network Enabled Capabilitys\glsspace (NNECs)},%
+text={NNEC},%
+plural={NNECs},%
+description={NATO Network Enabled Capability},%
+descriptionplural={NATO Network Enabled Capability\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={NATO Network Enabled Capability},%
+longplural={NATO Network Enabled Capabilitys},%
+short={NNEC},%
+shortplural={NNECs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{byod}{}%
+{%
+\gls@defglossaryentry{byod}%
+{%
+name={BOYD},%
+sort={BOYD},%
+type={acronym},%
+first={Bring Your Own Device\glsspace (BOYD)},%
+firstplural={Bring Your Own Devices\glsspace (BOYDs)},%
+text={BOYD},%
+plural={BOYDs},%
+description={Bring Your Own Device},%
+descriptionplural={Bring Your Own Device\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Bring Your Own Device},%
+longplural={Bring Your Own Devices},%
+short={BOYD},%
+shortplural={BOYDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cots}{}%
+{%
+\gls@defglossaryentry{cots}%
+{%
+name={COTS},%
+sort={COTS},%
+type={acronym},%
+first={Commercial off-the-shelf\glsspace (COTS)},%
+firstplural={Commercial off-the-shelfs\glsspace (COTSs)},%
+text={COTS},%
+plural={COTSs},%
+description={Commercial off-the-shelf},%
+descriptionplural={Commercial off-the-shelf\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Commercial off-the-shelf},%
+longplural={Commercial off-the-shelfs},%
+short={COTS},%
+shortplural={COTSs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{rest}{}%
+{%
+\gls@defglossaryentry{rest}%
+{%
+name={REST},%
+sort={REST},%
+type={acronym},%
+first={Representional State Transfer\glsspace (REST)},%
+firstplural={Representional State Transfers\glsspace (RESTs)},%
+text={REST},%
+plural={RESTs},%
+description={Representional State Transfer},%
+descriptionplural={Representional State Transfer\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Representional State Transfer},%
+longplural={Representional State Transfers},%
+short={REST},%
+shortplural={RESTs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{cde}{}%
+{%
+\gls@defglossaryentry{cde}%
+{%
+name={CD\&E},%
+sort={CD\&E},%
+type={acronym},%
+first={Concept Development and Experimentation\glsspace (CD\&E)},%
+firstplural={Concept Development and Experimentations\glsspace (CD\&Es)},%
+text={CD\&E},%
+plural={CD\&Es},%
+description={Concept Development and Experimentation},%
+descriptionplural={Concept Development and Experimentation\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Concept Development and Experimentation},%
+longplural={Concept Development and Experimentations},%
+short={CD\&E},%
+shortplural={CD\&Es},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{osm}{}%
+{%
+\gls@defglossaryentry{osm}%
+{%
+name={OSM},%
+sort={OSM},%
+type={acronym},%
+first={OpenStreetMap\glsspace (OSM)},%
+firstplural={OpenStreetMaps\glsspace (OSMs)},%
+text={OSM},%
+plural={OSMs},%
+description={OpenStreetMap},%
+descriptionplural={OpenStreetMap\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={OpenStreetMap},%
+longplural={OpenStreetMaps},%
+short={OSM},%
+shortplural={OSMs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{lte}{}%
+{%
+\gls@defglossaryentry{lte}%
+{%
+name={LTE},%
+sort={LTE},%
+type={acronym},%
+first={Long-term Evelution\glsspace (LTE)},%
+firstplural={Long-term Evelutions\glsspace (LTEs)},%
+text={LTE},%
+plural={LTEs},%
+description={Long-term Evelution},%
+descriptionplural={Long-term Evelution\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Long-term Evelution},%
+longplural={Long-term Evelutions},%
+short={LTE},%
+shortplural={LTEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

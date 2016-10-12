@@ -1,0 +1,23 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'xxxx-xx-xx_idamfro_masterthesis.blg'
+[45] biber-darwin:290> INFO - === Tue Oct 11, 2016, 13:10:53
+[64] Biber.pm:351> INFO - Reading 'xxxx-xx-xx_idamfro_masterthesis.bcf'
+[146] Biber.pm:776> INFO - Found 13 citekeys in bib section 0
+[157] Biber.pm:3493> INFO - Processing section 0
+[172] Biber.pm:3657> INFO - Looking for bibtex format file 'mybib.bib' for section 0
+[174] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[177] bibtex.pm:1048> INFO - Found BibTeX data source 'mybib.bib'
+[215] Utils.pm:149> WARN - BibTeX subsystem: /var/folders/hh/nqvtck9s2d719jl_nv2hs1pr0000gn/T/MguV9uLGot/mybib.bib_10770.utf8, line 2, warning: 18 characters of junk seen at toplevel
+[215] Utils.pm:149> WARN - BibTeX subsystem: /var/folders/hh/nqvtck9s2d719jl_nv2hs1pr0000gn/T/MguV9uLGot/mybib.bib_10770.utf8, line 43, warning: 31 characters of junk seen at toplevel
+[216] Utils.pm:149> WARN - BibTeX subsystem: /var/folders/hh/nqvtck9s2d719jl_nv2hs1pr0000gn/T/MguV9uLGot/mybib.bib_10770.utf8, line 174, warning: 46 characters of junk seen at toplevel
+[216] Utils.pm:149> WARN - BibTeX subsystem: /var/folders/hh/nqvtck9s2d719jl_nv2hs1pr0000gn/T/MguV9uLGot/mybib.bib_10770.utf8, line 185, warning: 31 characters of junk seen at toplevel
+[216] Utils.pm:149> WARN - BibTeX subsystem: /var/folders/hh/nqvtck9s2d719jl_nv2hs1pr0000gn/T/MguV9uLGot/mybib.bib_10770.utf8, line 198, warning: 39 characters of junk seen at toplevel
+[216] Utils.pm:149> WARN - BibTeX subsystem: /var/folders/hh/nqvtck9s2d719jl_nv2hs1pr0000gn/T/MguV9uLGot/mybib.bib_10770.utf8, line 221, warning: 28 characters of junk seen at toplevel
+[216] Utils.pm:149> WARN - I didn't find a database entry for 'dina' (section 0)
+[234] UCollate.pm:66> INFO - Overriding locale 'en-UK' defaults 'variable = shifted' with 'variable = non-ignorable'
+[234] UCollate.pm:66> INFO - Overriding locale 'en-UK' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[235] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-UK'
+[235] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-UK'
+[247] bbl.pm:526> INFO - Writing 'xxxx-xx-xx_idamfro_masterthesis.bbl' with encoding 'latin1'
+[251] bbl.pm:619> INFO - Output to xxxx-xx-xx_idamfro_masterthesis.bbl
+[251] Biber.pm:108> INFO - WARNINGS: 7

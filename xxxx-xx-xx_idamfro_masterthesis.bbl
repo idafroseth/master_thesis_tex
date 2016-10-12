@@ -1,0 +1,518 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{usability_mobile_bertini}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=4d754bd415aad8aceacd2b422f33089f}{%
+           family={Bertini},
+           family_i={B\bibinitperiod},
+           given={Enrico},
+           given_i={E\bibinitperiod}}}%
+        {{hash=869a39ae95c2641e11001cd4aec29681}{%
+           family={Gabrielli},
+           family_i={G\bibinitperiod},
+           given={Silvia},
+           given_i={S\bibinitperiod}}}%
+        {{hash=9333bafcaf3c14d838166ea51bd94847}{%
+           family={Kimani},
+           family_i={K\bibinitperiod},
+           given={Stephen},
+           given_i={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Venezia, Italy}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{61a46384d8b5c84595202d340ce95287}
+      \strng{fullhash}{61a46384d8b5c84595202d340ce95287}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the Working Conference on Advanced Visual Interfaces}
+      \field{isbn}{1-59593-353-0}
+      \field{series}{AVI '06}
+      \field{title}{Appropriating and Assessing Heuristics for Mobile Computing}
+      \field{year}{2006}
+      \field{pages}{119\bibrangedash 126}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/1133265.1133291
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/1133265.1133291
+      \endverb
+      \keyw{heuristic evaluation,mobile computing,usability heuristics}
+    \endentry
+    \entry{01-Denning-computing_as_a_dicipline}{article}{}
+      \name{author}{6}{}{%
+        {{hash=a2ed3712478cd7808e63cd7894bbbd91}{%
+           family={Comer},
+           family_i={C\bibinitperiod},
+           given={D.\bibnamedelimi E.},
+           given_i={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f6d4e66e2a3561f18cf14c8a82d09da3}{%
+           family={Gries},
+           family_i={G\bibinitperiod},
+           given={David},
+           given_i={D\bibinitperiod}}}%
+        {{hash=4c50410f84aa04255c01a425612f2927}{%
+           family={Mulder},
+           family_i={M\bibinitperiod},
+           given={Michael\bibnamedelima C.},
+           given_i={M\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=7dc77e7329460be277ca09850bc6a015}{%
+           family={Tucker},
+           family_i={T\bibinitperiod},
+           given={Allen},
+           given_i={A\bibinitperiod}}}%
+        {{hash=531c725521f800badae2e6fa360a7ff0}{%
+           family={Turner},
+           family_i={T\bibinitperiod},
+           given={A.\bibnamedelimi Joe},
+           given_i={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=33a7945ba63541b23f92c318de196d48}{%
+           family={Young},
+           family_i={Y\bibinitperiod},
+           given={Paul\bibnamedelima R.},
+           given_i={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=7cde28e3183431c85585b2874e52d875}{%
+           family={Denning},
+           family_i={D\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           given_i={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{4140009892379414be55e48293e17cef}
+      \strng{fullhash}{aa9bd63c373d513babdb15592e7c0099}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0001-0782}
+      \field{journaltitle}{Commun. ACM}
+      \field{month}{01}
+      \field{number}{1}
+      \field{title}{Computing As a Discipline}
+      \field{volume}{32}
+      \field{year}{1989}
+      \field{pages}{9\bibrangedash 23}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1145/63238.63239
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/63238.63239
+      \endverb
+    \endentry
+    \entry{01-Denning-computer_science}{incollection}{}
+      \name{author}{1}{}{%
+        {{hash=7cde28e3183431c85585b2874e52d875}{%
+           family={Denning},
+           family_i={D\bibinitperiod},
+           given={Peter\bibnamedelima J.},
+           given_i={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Chichester, UK}%
+      }
+      \list{publisher}{2}{%
+        {John Wiley}%
+        {Sons Ltd.}%
+      }
+      \strng{namehash}{7cde28e3183431c85585b2874e52d875}
+      \strng{fullhash}{7cde28e3183431c85585b2874e52d875}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Encyclopedia of Computer Science}
+      \field{isbn}{0-470-86412-5}
+      \field{title}{Computer Science}
+      \field{pages}{405\bibrangedash 419}
+      \range{pages}{15}
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=1074100.1074266
+      \endverb
+    \endentry
+    \entry{04-Do_et_al-Ad_hoc_nw_HybCAST}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=14eb5ef130e4a8594b524688fed34aaa}{%
+           family={Do},
+           family_i={D\bibinitperiod},
+           given={N.\bibnamedelimi M.},
+           given_i={N\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=232d14d5413f323ba6dcfb837ebcc091}{%
+           family={Hsu},
+           family_i={H\bibinitperiod},
+           given={C.\bibnamedelimi H.},
+           given_i={C\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=a7a94333ccfb5c3d7457b48e49ed12b6}{%
+           family={Venkatasubramanian},
+           family_i={V\bibinitperiod},
+           given={N.},
+           given_i={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{fccea61ea83853ac1979e64daf71c50b}
+      \strng{fullhash}{fccea61ea83853ac1979e64daf71c50b}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Reliable Distributed Systems (SRDS), 2012 IEEE 31st Symposium on}
+      \field{issn}{1060-9857}
+      \field{month}{10}
+      \field{title}{HybCAST: Rich Content Dissemination in Hybrid Cellular and 802.11 Ad Hoc Networks}
+      \field{year}{2012}
+      \field{pages}{352\bibrangedash 361}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/SRDS.2012.36
+      \endverb
+      \keyw{3G mobile communication;Linux;ad hoc networks;cellular radio;middleware;protocols;smart phones;telecommunication network reliability;802.11 access points;802.11 ad hoc networks;Android smart phones;HybCAST middleware;UMTS network;cellular-only dissemination system;device mobility;dissemination server;diverse content sizes;energy consumption;hybrid cellular networks;in-network Linux machine;information dissemination;latency dissemination;mobile devices;packet-level simulations;protocols;reliability;rich content dissemination;two-level ad hoc clusters;wired networks;Ad hoc networks;Base stations;IEEE 802.11 Standards;Logic gates;Mobile handsets;Reliability;Servers;Middleware;approximation algorithms;dissemination;multimedia;reliability;wireless networks}
+    \endentry
+    \entry{10_mobile_he}{online}{}
+      \name{author}{3}{}{%
+        {{hash=df256a75ff5c2fb5b0ac76796c83044e}{%
+           family={Gomez},
+           family_i={G\bibinitperiod},
+           given={Rosa\bibnamedelima Yanez},
+           given_i={R\bibinitperiod\bibinitdelim Y\bibinitperiod}}}%
+        {{hash=566e59b7b6c0334684d7f808edf15807}{%
+           family={Caballero},
+           family_i={C\bibinitperiod},
+           given={Daniel\bibnamedelima Cascado},
+           given_i={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=dd2f451c374001bf635a32fe87e77aae}{%
+           family={Sevillano},
+           family_i={S\bibinitperiod},
+           given={Jose-Luis},
+           given_i={J\bibinithyphendelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{f2728b0c01625aa95ba66c89b45a9e3d}
+      \strng{fullhash}{f2728b0c01625aa95ba66c89b45a9e3d}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The rapid evolution and adoption of mobile devices raise new usability challenges, given their limitations (in screen size, battery life, etc.) as well as the specific requirements of this new interaction. Traditional evaluation techniques need to be adapted in order for these requirements to be met. Heuristic evaluation ({HE}), an Inspection Method based on evaluation conducted by experts over a real system or prototype, is based on checklists which are desktop-centred and do not adequately detect mobile-specific usability issues. In this paper, we propose a compilation of heuristic evaluation checklists taken from the existing bibliography but readapted to new mobile interfaces. Selecting and rearranging these heuristic guidelines offer a tool which works well not just for evaluation but also as a best-practices checklist. The result is a comprehensive checklist which is experimentally evaluated as a design tool. This experimental evaluation involved two software engineers without any specific knowledge about usability, a group of ten users who compared the usability of a first prototype designed without our heuristics, and a second one after applying the proposed checklist. The results of this experiment show the usefulness of the proposed checklist for avoiding usability gaps even with nontrained developers.}
+      \field{day}{11}
+      \field{issn}{2356-6140}
+      \field{journaltitle}{The Scientific World Journal}
+      \field{langid}{english}
+      \field{month}{09}
+      \field{shorttitle}{Heuristic Evaluation on Mobile Interfaces}
+      \field{title}{Heuristic Evaluation on Mobile Interfaces: A New Checklist}
+      \field{urlday}{05}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \field{volume}{2014}
+      \field{year}{2014}
+      \verb{doi}
+      \verb 10.1155/2014/434326
+      \endverb
+      \verb{file}
+      \verb Full Text PDF:/Users/Zelus/Library/Application Support/Zotero/Profiles/o805c9su.default/zotero/storage/F9JI3XUS/Y&#xe1 et al. - 2014 - Heuristic Evaluation on Mobile Interfaces A New C.pdf:application/pdf;Snapshot:/Users/Zelus/Library/Application Support/Zotero/Profiles/o805c9su.default/zotero/storage/XGAT3KB4/434326.html:application/xhtml+xml
+      \endverb
+      \verb{url}
+      \verb http://www.hindawi.com/journals/tswj/2014/434326/abs/
+      \endverb
+    \endentry
+    \entry{gudmundsen_communication_2016}{thesis}{}
+      \name{author}{3}{}{%
+        {{hash=3cf2a2e73cbfd78bddfa68c11d0b6f42}{%
+           family={Gudmundsen},
+           family_i={G\bibinitperiod},
+           given={Espen},
+           given_i={E\bibinitperiod}}}%
+        {{hash=0c900241edf3dd368cbf3b58d33ac95d}{%
+           family={Bekkelund},
+           family_i={B\bibinitperiod},
+           given={Kari\bibnamedelima Helene},
+           given_i={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=7ff0236555a937e243923dc706217348}{%
+           family={BrurÂs},
+           family_i={B\bibinitperiod},
+           given={Magnus},
+           given_i={M\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {Westerdals, Oslo School of Arts, Communication}%
+        {Technology}%
+      }
+      \list{location}{1}{%
+        {Oslo}%
+      }
+      \strng{namehash}{ca3b0c4a50193a57d718b3a5e39bca1f}
+      \strng{fullhash}{ca3b0c4a50193a57d718b3a5e39bca1f}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{22}
+      \field{month}{05}
+      \field{pagetotal}{54}
+      \field{title}{Communication application for situational awareness at the individual soldier level}
+      \field{type}{Bachelor thesis}
+      \field{year}{2016}
+    \endentry
+    \entry{ep1667_bakgrunn}{report}{}
+      \name{author}{6}{}{%
+        {{hash=0bad328d0ce4c0b729b7429cc21deff0}{%
+           family={Johnsen},
+           family_i={J\bibinitperiod},
+           given={Frank\bibnamedelima T.},
+           given_i={F\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=7fc0552e225cbe9549a34bc8eae69778}{%
+           family={Bloembaum},
+           family_i={B\bibinitperiod},
+           given={Trude\bibnamedelima H.},
+           given_i={T\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=71845614dd51b76da20ff154171a3139}{%
+           family={Brannsten},
+           family_i={B\bibinitperiod},
+           given={Marianne\bibnamedelima R.},
+           given_i={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f077dfcfc3289b741a84dcf3ee66b02b}{%
+           family={Lund},
+           family_i={L\bibinitperiod},
+           given={Ketil},
+           given_i={K\bibinitperiod}}}%
+        {{hash=b09a0f827ea164e19aae4c9cad0c268f}{%
+           family={Mancini},
+           family_i={M\bibinitperiod},
+           given={Frederico},
+           given_i={F\bibinitperiod}}}%
+        {{hash=fa79957d6df3b7d2ddd9f8e4e986e56f}{%
+           family={Reitan},
+           family_i={R\bibinitperiod},
+           given={BÂrd\bibnamedelima K.},
+           given_i={B\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Norwegian Defence Research Establishment}%
+      }
+      \list{location}{1}{%
+        {Kjeller}%
+      }
+      \strng{namehash}{9fd59ea7fa620d39ccfa8b67904b4f04}
+      \strng{fullhash}{b8a413cf1284538b3242ac9ccde49b03}
+      \field{sortinit}{J}
+      \field{sortinithash}{ec3950a647c092421b9fcca6d819504a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{month}{05}
+      \field{number}{2016/00848}
+      \field{title}{Bakgrunn for og innretning av st{¯}tten til {EP}1667 "{SMART}"}
+      \field{year}{2016}
+      \field{pages}{49}
+      \range{pages}{1}
+    \endentry
+    \entry{04-Kaul_et_al-adaption_of_smart_network}{inproceedings}{}
+      \name{author}{5}{}{%
+        {{hash=f4dbb06240006edf541b7d1c952736b6}{%
+           family={Kaul},
+           family_i={K\bibinitperiod},
+           given={V.},
+           given_i={V\bibinitperiod}}}%
+        {{hash=e796dc0555c99a2a3b3153c9e55b07ec}{%
+           family={Makaya},
+           family_i={M\bibinitperiod},
+           given={C.},
+           given_i={C\bibinitperiod}}}%
+        {{hash=40d868cb3e70ae63bdc0719d68c757ca}{%
+           family={Das},
+           family_i={D\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+        {{hash=a25bc9929e7a1e8fd436e0ee3133cf3c}{%
+           family={Shur},
+           family_i={S\bibinitperiod},
+           given={D.},
+           given_i={D\bibinitperiod}}}%
+        {{hash=5b9a495bb0414080db6ed86adb397eb7}{%
+           family={Samtani},
+           family_i={S\bibinitperiod},
+           given={S.},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b41bd26b7085ab077f42e939d872c7be}
+      \strng{fullhash}{021492981e86c7dc26dc7b150b02bc8a}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 - MILCOM 2011 Military Communications Conference}
+      \field{issn}{2155-7578}
+      \field{month}{11}
+      \field{title}{On the adaptation of commercial smartphones to tactical environments}
+      \field{year}{2011}
+      \field{pages}{2205\bibrangedash 2210}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/MILCOM.2011.6127649
+      \endverb
+      \keyw{IP networks;ad hoc networks;cellular radio;internetworking;military communication;military computing;mobility management (mobile radio);multicast communication;smart phones;telecommunication security;IP-based solution;ad-hoc wireless network;appliqueÃÅ based platform;architectures;custom hardware;deployment architecture;expeditionary cellular network;expeditionary cellular system;heterogeneous environment;heterogeneous tactical gateway;indigenous cellular network;middleware;military radio;mobility management;multicast capability;native interface;network address translation;research and development;security management;smartphones;software;tactical environment;tactical vehicle;tunneling capability;warfighter;Ad hoc networks;Androids;Delay;Humanoid robots;IEEE 802.11 Standards;Mobile communication;Smart phones;3G/4G;MANET;MIH;Mobile IP;cellular;handoff;multicast;overlay;smartphones}
+    \endentry
+    \entry{kuparinen_mobile_he}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=bb18ceb6abf6b2f22971b851330bb9f9}{%
+           family={Kuparinen},
+           family_i={K\bibinitperiod},
+           given={Liisa},
+           given_i={L\bibinitperiod}}}%
+        {{hash=a047271a8233ae121a8f0357eaf692ea}{%
+           family={Silvennoinen},
+           family_i={S\bibinitperiod},
+           given={Johanna},
+           given_i={J\bibinitperiod}}}%
+        {{hash=395b9cf7a6c1aa91e9fef0c19b796220}{%
+           family={Isom‰ki},
+           family_i={I\bibinitperiod},
+           given={Hannakaisa},
+           given_i={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{a6ecbc069c3df293a39c5feb53f5307a}
+      \strng{fullhash}{a6ecbc069c3df293a39c5feb53f5307a}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 26th International Cartographic Conference (ICC 2013)}
+      \field{title}{Introducing usability heuristics for mobile map applications}
+      \field{year}{2013}
+    \endentry
+    \entry{10_heuristics_nielsen}{online}{}
+      \name{author}{1}{}{%
+        {{hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           family_i={N\bibinitperiod},
+           given={Jakob},
+           given_i={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Jakob Nielsen's 10 general principles for interaction design. They are called "heuristics" because they are broad rules of thumb and not specific usability guidelines.}
+      \field{shorttitle}{10 Heuristics for User Interface Design}
+      \field{title}{10 Heuristics for User Interface Design}
+      \field{urlday}{05}
+      \field{urlmonth}{10}
+      \field{urlyear}{2016}
+      \verb{file}
+      \verb Snapshot:/Users/Zelus/Library/Application Support/Zotero/Profiles/o805c9su.default/zotero/storage/TRSWCZ7E/ten-usability-heuristics.html:text/html
+      \endverb
+      \verb{url}
+      \verb https://www.nngroup.com/articles/ten-usability-heuristics/
+      \endverb
+    \endentry
+    \entry{Nielsen_1992_HE_method}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           family_i={N\bibinitperiod},
+           given={Jakob},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Monterey, California, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{753054f71283d85f82cda8e35daf6bac}
+      \strng{fullhash}{753054f71283d85f82cda8e35daf6bac}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in Computing Systems}
+      \field{isbn}{0-89791-513-5}
+      \field{series}{CHI '92}
+      \field{title}{Finding Usability Problems Through Heuristic Evaluation}
+      \field{year}{1992}
+      \field{pages}{373\bibrangedash 380}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/142750.142834
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/142750.142834
+      \endverb
+      \keyw{discount usability engineering,heuristic evaluation,interface evaluation,telephone-operated interfaces,usability expertise,usability problems}
+    \endentry
+    \entry{he_nielsen}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=753054f71283d85f82cda8e35daf6bac}{%
+           family={Nielsen},
+           family_i={N\bibinitperiod},
+           given={Jakob},
+           given_i={J\bibinitperiod}}}%
+        {{hash=5121fc884cb68ab1735048c6f4b01c00}{%
+           family={Molich},
+           family_i={M\bibinitperiod},
+           given={Rolf},
+           given_i={R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Seattle, Washington, USA}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{93f25eae6b00f04b1c168be0f628288f}
+      \strng{fullhash}{93f25eae6b00f04b1c168be0f628288f}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in Computing Systems}
+      \field{isbn}{0-201-50932-6}
+      \field{series}{CHI '90}
+      \field{title}{Heuristic Evaluation of User Interfaces}
+      \field{year}{1990}
+      \field{pages}{249\bibrangedash 256}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1145/97243.97281
+      \endverb
+      \verb{url}
+      \verb http://doi.acm.org/10.1145/97243.97281
+      \endverb
+    \endentry
+  \endsortlist
+  \missing{dina}
+\endrefsection
+\endinput
+

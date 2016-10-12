@@ -1,0 +1,37 @@
+\BOOKMARK [0][-]{chapter.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Background and motivation}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Problem statement}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Goals}{section.1.2}% 4
+\BOOKMARK [1][-]{section.1.3}{Premises}{chapter.1}% 5
+\BOOKMARK [1][-]{section.1.4}{Scope and Limitations}{chapter.1}% 6
+\BOOKMARK [1][-]{section.1.5}{Research Methodology}{chapter.1}% 7
+\BOOKMARK [1][-]{section.1.6}{Contribution}{chapter.1}% 8
+\BOOKMARK [1][-]{section.1.7}{Thesis outline}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{Related work, requirement analysis and state of the art}{}% 10
+\BOOKMARK [1][-]{section.2.1}{SMART project overview}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{Analyzing the TITANS}{chapter.2}% 12
+\BOOKMARK [1][-]{section.2.3}{User experience}{chapter.2}% 13
+\BOOKMARK [2][-]{subsection.2.3.1}{Map}{section.2.3}% 14
+\BOOKMARK [2][-]{subsection.2.3.2}{Power consumption}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.3}{Findability}{section.2.3}% 16
+\BOOKMARK [2][-]{subsection.2.3.4}{Information architecture}{section.2.3}% 17
+\BOOKMARK [2][-]{subsection.2.3.5}{Location preciseness}{section.2.3}% 18
+\BOOKMARK [1][-]{section.2.4}{Heuristic evaluation}{chapter.2}% 19
+\BOOKMARK [2][-]{subsection.2.4.1}{Why Heuristic evaluation}{section.2.4}% 20
+\BOOKMARK [2][-]{subsection.2.4.2}{Choosing heuristics}{section.2.4}% 21
+\BOOKMARK [2][-]{subsection.2.4.3}{Problems discovered through heuristic evaluation}{section.2.4}% 22
+\BOOKMARK [1][-]{section.2.5}{Performance testing}{chapter.2}% 23
+\BOOKMARK [1][-]{section.2.6}{The domain}{chapter.2}% 24
+\BOOKMARK [1][-]{section.2.7}{Summary of requirements with prioritization}{chapter.2}% 25
+\BOOKMARK [0][-]{chapter.3}{Design of an enhanced solution}{}% 26
+\BOOKMARK [1][-]{section.3.1}{Overview}{chapter.3}% 27
+\BOOKMARK [1][-]{section.3.2}{Improving performance}{chapter.3}% 28
+\BOOKMARK [1][-]{section.3.3}{Improving usability}{chapter.3}% 29
+\BOOKMARK [2][-]{subsection.3.3.1}{Map}{section.3.3}% 30
+\BOOKMARK [2][-]{subsection.3.3.2}{More precise location}{section.3.3}% 31
+\BOOKMARK [0][-]{chapter.4}{Evaluating the results}{}% 32
+\BOOKMARK [1][-]{section.4.1}{Evaluating the user experience}{chapter.4}% 33
+\BOOKMARK [1][-]{section.4.2}{Evaluation the performance}{chapter.4}% 34
+\BOOKMARK [0][-]{chapter.5}{Conclusion}{}% 35
+\BOOKMARK [1][-]{section.5.1}{Future work}{chapter.5}% 36
+\BOOKMARK [1][-]{section.5.2}{Change log}{chapter.5}% 37

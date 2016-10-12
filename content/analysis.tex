@@ -1,0 +1,132 @@
+%!TEX root = ../xxxx-xx-xx_idamfro_masterthesis.tex
+\chapter{Related work, requirement analysis and state of the art}\label{chap:analysis}
+This chapter covers the requirements analysis blalblabla:-)
+
+\section{SMART project overview}
+\section{Analyzing the TITANS}\label{sec:smart_analysis}
+The analyzis of the Titans form the basis for the direction and work in this thesis, and also uncover the requirements for a smart phone hosted \gls{bft} application. I have used three different approaches when analysing the system. First the data gathered by \gls{ffi} was analyzed, then a heuristic evaluation of the current solution were conductet before performing some benchmark test in order to get an overview of the system current solution. 
+
+The rest of this chapter will first go through the findings from analyzing the user feedback, performing the heuristic evaluation and doing performance tesing. In each section a set of derived requirements and their priority will be stated. At the end of this chapter a summary of the findings is included to give the reader a overview of all the identified requirements.
+
+\section{User experience}
+The results form the questionnaires revealed that the users were very positive to both the application and the project, and all the questions regarding the idea or concept got more than 80 percent positive votes. On the question on the reason for adding information in the CAGED app, the alternative it took focus away from their main task.
+
+The users also addresses some additional requirements to the application which can be categorized in the following categories:
+\begin{itemize}
+	\item{Map}
+	\item{Power consumption}
+	\item{Information architecture}
+	\item{Location strategy}
+\end{itemize}
+
+\subsection{Map}
+The users basically mentioned two main problems with the map of the current version: 
+\begin{itemize}
+	\item{The fidelity of the map}
+	\item{The format of locations}
+\end{itemize}
+\subsubsection{Map fidelity}
+The first issue relates to the map used in the current solution, which is \gls{osm}. \gls{osm} lacks a lot of information in some areas, and the users mentioned amongst others, contours, roads and building as examples of information which were not present. Multiple users mentioned the Norgeskart app, which uses Kartverkets open map database\footnote{http://www.kartverket.no/Kart/Gratis-kartdata/}, as an example of a good map.
+The derived requirement is as follows:
+\begin{requirement}
+The map for such application needs fidelity similar to Norgeskart 1:50000 data set or better.
+\end{requirement}
+
+The consequences of not having an accurate map might be navigations errors, lack of trust in the system and that user rather uses other mapping applications for navigation. The consequences are crucial for the application to be used therefor this requirement should be assigned \textbf{high} priority. 
+
+\subsubsection{Location format}
+The current solution displays locations using latitude and longitude, while the soldiers are used to the \gls{mgrs}, which is also the coordinates displayed on their physical map. Since the squads still uses physical maps to navigate and the operation order usually refer to location in \gls{mgrs}, the efficiency and synergy by using the application is not as high as it could be. Since this is not a critical part of the application, but would make the soldier more efficient the following requirement should be assigned a \textbf{low} priority:
+\begin{requirement}
+The location of a observation or a user should be displayed using the \gls{mgrs} format. 
+\end{requirement}
+
+\subsection{Power consumption}
+About one out of three users commented in the open-ended questions that their device quickly ran out of power. The devices were fully charged and each squad were given a powerbank at the start of the exercise. The duration of the tests were also relatively short compared to a real world scenario\footnote{During the first two tests the users returned their devices every 24th hour for recharging and update. While for the two last the test execution duration were only about 40 hours, see table \ref{tab:smart_tests}}. The duration of one operations usually rarely last for more than 24 hours, but the soldiers can be days without getting access to a facility with power. Often squads use vehicle for transportation, but since they were not provided with a charger for vehicles, they were not able to charge the device. The consequences of not having a device with power is crucial, and the following two requirements should have a \textbf{high} priority. 
+\begin{requirement}
+The smart phone app should last for at least 24 hours without the need to recharge.
+\end{requirement}
+\begin{requirement}
+The user need to carry power resources to last for at least ***one week before returning to a facility with corded electricity. 
+\end{requirement}
+
+\subsection{Findability}
+
+
+\subsection{Information architecture}
+The users have through the open-ended questionnaire and in conversation pointed out multiple issues related to information architecture. There were both  
+
+The issues can be grouped into the following categories:
+
+Finding new information 
+1 * Filtering 
+2 * Feed of what is new (as of facebook being chronological)?
+	- findability
+3 * How to organize the information of an event
+
+
+
+
+\begin{itemize}
+	\item{Notifications}
+	\item{Filtering information}
+	\item{Visualize the situation}
+\end{itemize}
+
+
+\subsubsection{Notifications}
+Multiple users called for a feature to be notified when there is a change in the system. Without any notification the user have to periodically check the map or the list of observations for new or updated information. This brings the soldiers focus away from their main task and are both inefficient and dangerous. If the user were notified whenever there is a change they will get a better and faster situational awareness. At the same time, if the users are constantly notified for every small change in the situation it can also draw the user attention away from their main task. In other words, the user should only be notified when the information is relevant to the user. The derived requirement is as follows:
+\begin{requirement}
+The user should be notified whenever relevant information\footnote{Whether information is relevant or not depends on the physical distance from the user, if the user have marked the observation as a favorite and if the user is the creator or editor of the observation with updated information.} is added or updated.
+\end{requirement}
+
+The above requirement will give an better situational awareness to the user faster, which is a core goal with the application and the requirement should have a \textbf{high} priority. 
+
+\subsubsection{Filtering information}
+Multiple users mentioned that they had problem filtering out relevant information, and this is despite the short time frame the app was used (with longer exercises more and older information would be present).  In the current solution, the idea is that an administrator (typically an user of Metis) should remove information when it gets irrelevant\cite{gudmundsen_communication_2016}. However in conversations with different users and through the interview with the Metis operator it is clear that different users with different roles have a different view of what is relevant information and not. For example would the S-2 (Intelligence) personnel of the Area Command need 'historic' information in order to analyze how the situation is evolving, while a soldier in a squad would only be interested in the information that can influence the current situation. On the other hand it is obvious that information left out (filtered) without the soldier being aware of it can be very dangerous, hence a filtering mechanism has to be user initiated and not necessary remove the information completely from the map but make it visually less important. 
+
+Whether information is relevant or not depends on multiple factors, and using only time is not adequate; An enemy observed passing in a vehicle may only be valid for hours or minutes, while information about the location of an enemy command post would be relevant for maybe weeks, and even moths or years. The user should therefore be able to select some information to never be filtered.  
+
+\begin{requirement}
+The application should support user initiated filters which makes it visually easy to see what information is relevant. 
+\end{requirement}
+
+
+\subsubsection{Visualizing the situation}
+This requirement is highly related to the previous requirement about filtering information, however this requirement is more related to how information is displayed. Users mentioned that they had problem seeing the view fast enough. The current solution uses clustering to avoid information overload. However the user has to zoom in to get more details about each 
+
+
+Relevant information
+What is the last updates
+
+
+
+\subsection{Location preciseness}
+
+What type of information do they have to share:
+* Blue force tracking
+* Observations
+
+
+* In general positive to the project and the application (more than 80 percent)
+* The reason for not using the app was mainly because it took focus away from their main task
+*The open-ended questions and in conversation with the user, the following issues were addressed. 
+
+
+\section{Heuristic evaluation}
+\subsection{Why Heuristic evaluation}
+\gls{he} is a informal method to evaluate the usability of a user interface design. It is conducted by simply looking at the interface and evaluate it based on some chosen design principles\cite{he_nielsen}. The advantage of the technique is that it is effective, can be used early in the development phase, is cheap and does not require to much resources \cite{Nielsen_1992_HE_method}\cite{usability_mobile_bertini}. The method also have some shortcomings as it could be biased by the current mindset of the evaluators\cite{he_nielsen}. \gls{he} should be performed independently by three to five persons as pointed out in Nielsen and Molich in \cite{he_nielsen}, however the resources available for this thesis only allowed one evaluator. 
+
+\subsection{Choosing heuristics}
+Nielsen 10 usability heuristics \cite{10_heuristics_nielsen} are well known and tested. Since touchscreen based mobile interfaces have some different \gls{hci} challenges compared to traditional computers interfaces, different set of mobile specific heuristics have been proposed\cite{kuparinen_mobile_he} \cite{usability_mobile_bertini} \cite{10_mobile_he}. \cite{kuparinen_mobile_he} propose a way to interpret the Nielsens 10 heuristics to better suit map based mobile application, and this interpretation is used when performing the \gls{he}.
+
+\subsection{Problems discovered through heuristic evaluation}
+
+\section{Performance testing}
+\section{The domain}
+* How many observation has to be supported?
+* How should
+
+The bachelor thesis \cite{gudmundsen_communication_2016} shows that when exceeding 200 observation, some devices start having problem rendering the observation. When this limit was tested, all the observation were fetched from the server every time, and since then versioning have been added, so only changed observations has to be updated.  rendering of the observations start having problems. They assumes this is sufficient, how
+
+\section{Summary of requirements with prioritization}\label{sec:analysis_summary}
+

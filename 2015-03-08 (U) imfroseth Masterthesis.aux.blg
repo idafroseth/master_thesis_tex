@@ -1,5 +1,0 @@
-[0] Config.pm:324> INFO - This is Biber 2.1
-[0] Config.pm:327> INFO - Logfile is '2015-03-08 (U) imfroseth Masterthesis.aux.blg'
-[50] biber-darwin:276> INFO - === Fri Jan 22, 2016, 13:41:07
-[85] Utils.pm:162> ERROR - Cannot find control file '2015-03-08 (U) imfroseth Masterthesis.aux.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
-[85] Biber.pm:110> INFO - ERRORS: 1
